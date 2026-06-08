@@ -1,13 +1,13 @@
 # GNUSlashLinux_Repo / repo.GNUSlashLinux
 
-> 🕒 **Letztes automatisches Update:** 08.06.2026 um 19:09 Uhr
+> 🕒 **Letztes automatisches Update:** 08.06.2026 um 19:16 Uhr
 
 ## 🎚️ admin@gnuslashlinux:~ $ apt-repo --info
 
-Willkommen im offiziellen GNUSlashLinux Online-Repository.
+Willkommen im offiziellen GNUSlashLinux Online-Repository.<br>
 Du kannst diese Pakete direkt über Deinen APT-Paketmanager installieren.
 <br><br>
-Welcome to the official GNUSlashLinux online repository.
+Welcome to the official GNUSlashLinux online repository.<br>
 You can install these packages directly from your APT package manager.
 
 ## 📦 Verfügbare Pakete / Available Packages
@@ -36,26 +36,26 @@ You can install these packages directly from your APT package manager.
 
 ## 🚀 Einrichtung / Setup
 
-Führe die folgenden Befehle im Terminal aus, um das Repository hinzuzufügen:
+Führe die folgenden Befehle im Terminal aus, um das Repository hinzuzufügen:<br>
 Run the following commands in your terminal to add the repository:
 
 ### 1. GPG-Schlüssel importieren / Import GPG keys
 
-<div style="position: relative; margin-bottom: 1em;">
-  <pre><code id="code1">wget -O- https://github.io | gpg --dearmor | sudo tee /usr/share/keyrings/gnuslashlinux.gpg > /dev/null</code></pre>
-  <button onclick="navigator.clipboard.writeText(document.getElementById('code1').innerText); this.textContent='Kopiert!';" style="position: absolute; top: 5px; right: 5px; padding: 5px 10px; background: #4C566A; color: #ECEFF4; border: none; border-radius: 4px; cursor: pointer;">Kopieren</button>
+<div style="background: #2e3440; padding: 10px; border-radius: 6px; margin-bottom: 1em;">
+  <input type="text" value="wget -O- https://github.io | gpg --dearmor | sudo tee /usr/share/keyrings/gnuslashlinux.gpg > /dev/null" readonly onclick="this.select();" style="width: 100%; background: transparent; color: #d8dee9; border: none; font-family: monospace; font-size: 14px; outline: none; cursor: text;" />
+  <small style="color: #616e88; display: block; margin-top: 5px;">💡 Klicke in die Zeile, um den Befehl direkt zu markieren (Strg+C / Cmd+C)</small>
 </div>
 
 ### 2. Repository zur Paketquelle hinzufügen / Add repository to package source
 
-<div style="position: relative; margin-bottom: 1em;">
-  <pre><code id="code2">echo "deb [signed-by=/usr/share/keyrings/gnuslashlinux.gpg] https://github.io trixie main" | sudo tee /etc/apt/sources.list.d/gnuslashlinux.list</code></pre>
-  <button onclick="navigator.clipboard.writeText(document.getElementById('code2').innerText); this.textContent='Kopiert!';" style="position: absolute; top: 5px; right: 5px; padding: 5px 10px; background: #4C566A; color: #ECEFF4; border: none; border-radius: 4px; cursor: pointer;">Kopieren</button>
+<div style="background: #2e3440; padding: 10px; border-radius: 6px; margin-bottom: 1em;">
+  <input type="text" value="echo &quot;deb [signed-by=/usr/share/keyrings/gnuslashlinux.gpg] https://github.io trixie main&quot; | sudo tee /etc/apt/sources.list.d/gnuslashlinux.list" readonly onclick="this.select();" style="width: 100%; background: transparent; color: #d8dee9; border: none; font-family: monospace; font-size: 14px; outline: none; cursor: text;" />
+  <small style="color: #616e88; display: block; margin-top: 5px;">💡 Klicke in die Zeile, um den Befehl direkt zu markieren (Strg+C / Cmd+C)</small>
 </div>
 
 ### 3. Paketliste aktualisieren / Update package list
 
-<div style="position: relative; margin-bottom: 1em;">
-  <pre><code id="code3">sudo apt update</code></pre>
-  <button onclick="navigator.clipboard.writeText(document.getElementById('code3').innerText); this.textContent='Kopiert!';" style="position: absolute; top: 5px; right: 5px; padding: 5px 10px; background: #4C566A; color: #ECEFF4; border: none; border-radius: 4px; cursor: pointer;">Kopieren</button>
+<div style="background: #2e3440; padding: 10px; border-radius: 6px; margin-bottom: 1em;">
+  <input type="text" value="sudo apt update" readonly onclick="this.select();" style="width: 100%; background: transparent; color: #d8dee9; border: none; font-family: monospace; font-size: 14px; outline: none; cursor: text;" />
+  <small style="color: #616e88; display: block; margin-top: 5px;">💡 Klicke in die Zeile, um den Befehl direkt zu markieren (Strg+C / Cmd+C)</small>
 </div>
