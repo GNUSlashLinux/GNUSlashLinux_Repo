@@ -1,5 +1,7 @@
 # GNUSlashLinux_Repo / repo.GNUSlashLinux
 
+> 🕒 **Letztes automatisches Update:** 08.06.2026 um 14:31 Uhr (UTC)
+
 ## 🎚️ admin@gnuslashlinux:~ $ apt-repo --info
 
 Willkommen im offiziellen GNUSlashLinux Online-Repository.
