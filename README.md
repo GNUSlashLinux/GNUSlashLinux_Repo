@@ -1,5 +1,6 @@
 # GNUSlashLinux_Repo / repo.GNUSlashLinux
-## admin@gnuslashlinux:~ $ apt-repo --info
+
+## 🎚️ admin@gnuslashlinux:~ $ apt-repo --info
 
 Willkommen im offiziellen GNUSlashLinux Online-Repository.
 Du kannst diese Pakete direkt über Deinen APT-Paketmanager installieren.
