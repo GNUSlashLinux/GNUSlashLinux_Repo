@@ -1,10 +1,25 @@
 # GNUSlashLinux_Repo / repo.GNUSlashLinux
+# admin@gnuslashlinux:~ $ apt-repo --info
 
 Willkommen im offiziellen GNUSlashLinux Online-Repository.
 Du kannst diese Pakete direkt über Deinen APT-Paketmanager installieren.
 
 Welcome to the official GNUSlashLinux online repository.
 You can install these packages directly from your APT package manager.
+
+## 📦 Available Packages / Verfügbare Pakete
+
+
+| Package Name | Architecture | Downloads |
+| :--- | :---: | :--- |
+
+| **gnuslashlinux-base** | all | ![gnuslashlinux-base](https://shields.io) |
+| **gnuslashlinux-fonts** | all | ![gnuslashlinux-fonts](https://shields.io) |
+| **gnuslashlinux-grub** | all | ![gnuslashlinux-grub](https://shields.io) |
+| **gnuslashlinux-plymouth** | all | ![gnuslashlinux-plymouth](https://shields.io) |
+| **gnuslashlinux-shellset** | all | ![gnuslashlinux-shellset](https://shields.io) |
+| **gnuslashlinux-wallpapers** | all | ![gnuslashlinux-wallpapers](https://shields.io) |
+| **gnuslashlinux-wallpapers-nord** | all | ![gnuslashlinux-wallpapers-nord](https://shields.io) |
 
 ## 🚀 Einrichtung / Setup
 
