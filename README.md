@@ -1,12 +1,12 @@
 # GNUSlashLinux_Repo / repo.GNUSlashLinux
 
-> 🕒 **Letztes automatisches Update:** 08.06.2026 um 19:23 Uhr
+> 🕒 **Letztes automatisches Update:** 08.06.2026 um 19:40 Uhr
 
 ## 🎚️ admin@gnuslashlinux:~ $ apt-repo --info
 
 Willkommen im offiziellen GNUSlashLinux Online-Repository.
 Du kannst diese Pakete direkt über Deinen APT-Paketmanager installieren.
-<br><br>
+
 Welcome to the official GNUSlashLinux online repository.
 You can install these packages directly from your APT package manager.
 
