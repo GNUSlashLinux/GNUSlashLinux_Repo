@@ -1,3 +1,11 @@
-theme: jekyll-theme-cayman
 title: repo.GNUSlashLinux
 description: Official GNUSlashLinux Package Repository
+
+# Lädt das Konsolen-Theme
+remote_theme: b2a3e8/jekyll-theme-console
+
+# Schaltet das Design exakt auf die Nord-Farbpalette um
+style: nord
+
+plugins:
+  - jekyll-remote-theme
