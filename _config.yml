@@ -10,5 +10,5 @@ style: nord
 plugins:
   - jekyll-remote-theme
 
-# Fügt das Copyright und den Link zur Hauptseite im Footer hinzu
-footer: "Copyright © 2026 [GNUSlashLinux](https://www.gnuslashlinux.com) | Powered By [Alien-Tec](https://www.alien-tec.com) | Alle Rechte vorbehalten."
+# Fügt das Copyright mit echten HTML-Links im Footer hinzu
+footer: "Copyright &copy; 2026 <a href='https://www.gnuslashlinux.com' target='_blank' style='color: #88C0D0;'>GNUSlashLinux</a> | Powered By <a href='https://www.alien-tec.com' target='_blank' style='color: #88C0D0;'>Alien-Tec</a> | Alle Rechte vorbehalten."
