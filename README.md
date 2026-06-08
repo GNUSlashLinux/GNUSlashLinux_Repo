@@ -19,13 +19,13 @@ You can install these packages directly from your APT package manager.
   </thead>
   <tbody>
 
-<tr><td><b>gnuslashlinux-base</b></td><td align='center'>all</td><td><img src='https://shields.io' alt='Active'></td></tr>
-<tr><td><b>gnuslashlinux-fonts</b></td><td align='center'>all</td><td><img src='https://shields.io' alt='Active'></td></tr>
-<tr><td><b>gnuslashlinux-grub</b></td><td align='center'>all</td><td><img src='https://shields.io' alt='Active'></td></tr>
-<tr><td><b>gnuslashlinux-plymouth</b></td><td align='center'>all</td><td><img src='https://shields.io' alt='Active'></td></tr>
-<tr><td><b>gnuslashlinux-shellset</b></td><td align='center'>all</td><td><img src='https://shields.io' alt='Active'></td></tr>
-<tr><td><b>gnuslashlinux-wallpapers</b></td><td align='center'>all</td><td><img src='https://shields.io' alt='Active'></td></tr>
-<tr><td><b>gnuslashlinux-wallpapers-nord</b></td><td align='center'>all</td><td><img src='https://shields.io' alt='Active'></td></tr>
+<tr><td><b>gnuslashlinux-base</b></td><td align='center'>all</td><td><span style='color: #A3BE8C; font-weight: bold;'>[ active ]</span></td></tr>
+<tr><td><b>gnuslashlinux-fonts</b></td><td align='center'>all</td><td><span style='color: #A3BE8C; font-weight: bold;'>[ active ]</span></td></tr>
+<tr><td><b>gnuslashlinux-grub</b></td><td align='center'>all</td><td><span style='color: #A3BE8C; font-weight: bold;'>[ active ]</span></td></tr>
+<tr><td><b>gnuslashlinux-plymouth</b></td><td align='center'>all</td><td><span style='color: #A3BE8C; font-weight: bold;'>[ active ]</span></td></tr>
+<tr><td><b>gnuslashlinux-shellset</b></td><td align='center'>all</td><td><span style='color: #A3BE8C; font-weight: bold;'>[ active ]</span></td></tr>
+<tr><td><b>gnuslashlinux-wallpapers</b></td><td align='center'>all</td><td><span style='color: #A3BE8C; font-weight: bold;'>[ active ]</span></td></tr>
+<tr><td><b>gnuslashlinux-wallpapers-nord</b></td><td align='center'>all</td><td><span style='color: #A3BE8C; font-weight: bold;'>[ active ]</span></td></tr>
   </tbody>
 </table>
 
