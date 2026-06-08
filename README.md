@@ -7,19 +7,27 @@ Du kannst diese Pakete direkt über Deinen APT-Paketmanager installieren.
 Welcome to the official GNUSlashLinux online repository.
 You can install these packages directly from your APT package manager.
 
-## 📦 Available Packages / Verfügbare Pakete
+## 📦 Verfügbare Pakete / Available Packages
 
+<table>
+  <thead>
+    <tr>
+      <th align="left">Package Name</th>
+      <th align="center">Architecture</th>
+      <th align="left">Status</th>
+    </tr>
+  </thead>
+  <tbody>
 
-| Package Name | Architecture | Downloads |
-| :--- | :---: | :--- |
-
-| **gnuslashlinux-base** | all | ![gnuslashlinux-base](https://shields.io) |
-| **gnuslashlinux-fonts** | all | ![gnuslashlinux-fonts](https://shields.io) |
-| **gnuslashlinux-grub** | all | ![gnuslashlinux-grub](https://shields.io) |
-| **gnuslashlinux-plymouth** | all | ![gnuslashlinux-plymouth](https://shields.io) |
-| **gnuslashlinux-shellset** | all | ![gnuslashlinux-shellset](https://shields.io) |
-| **gnuslashlinux-wallpapers** | all | ![gnuslashlinux-wallpapers](https://shields.io) |
-| **gnuslashlinux-wallpapers-nord** | all | ![gnuslashlinux-wallpapers-nord](https://shields.io) |
+<tr><td><b>gnuslashlinux-base</b></td><td align='center'>all</td><td><img src='https://shields.io' alt='Active'></td></tr>
+<tr><td><b>gnuslashlinux-fonts</b></td><td align='center'>all</td><td><img src='https://shields.io' alt='Active'></td></tr>
+<tr><td><b>gnuslashlinux-grub</b></td><td align='center'>all</td><td><img src='https://shields.io' alt='Active'></td></tr>
+<tr><td><b>gnuslashlinux-plymouth</b></td><td align='center'>all</td><td><img src='https://shields.io' alt='Active'></td></tr>
+<tr><td><b>gnuslashlinux-shellset</b></td><td align='center'>all</td><td><img src='https://shields.io' alt='Active'></td></tr>
+<tr><td><b>gnuslashlinux-wallpapers</b></td><td align='center'>all</td><td><img src='https://shields.io' alt='Active'></td></tr>
+<tr><td><b>gnuslashlinux-wallpapers-nord</b></td><td align='center'>all</td><td><img src='https://shields.io' alt='Active'></td></tr>
+  </tbody>
+</table>
 
 ## 🚀 Einrichtung / Setup
 
