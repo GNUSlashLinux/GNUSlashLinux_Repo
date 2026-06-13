@@ -1,6 +1,6 @@
 # GNUSlashLinux_Repo / repo.GNUSlashLinux
 
-> 🕒 **Letztes automatisches Update:** 13.06.2026 um 20:35 Uhr
+> 🕒 **Letztes automatisches Update:** 13.06.2026 um 20:54 Uhr
 
 ## 🎚️ admin@gnuslashlinux:~ $ apt-repo --info
 
@@ -44,14 +44,14 @@ Run the following commands in your terminal to add the repository:
 ### 1. GPG-Schlüssel importieren / Import GPG keys
 
 <div style="background: #2e3440; padding: 16px 12px; border: 2px solid #A3BE8C; border-radius: 8px; margin-bottom: 1em;">
-  <input type="text" value="wget -O- https://github.io | gpg --dearmor | sudo tee /usr/share/keyrings/gnuslashlinux.gpg > /dev/null" readonly onclick="this.select();" style="width: 100%; background: transparent; color: #d8dee9; border: none; font-family: monospace; font-size: 14px; line-height: 1.6; outline: none; cursor: text;" />
+  <input type="text" value="wget -O- https://gnuslashlinux.github.io/GNUSlashLinux_Repo/repo.gpg | gpg --dearmor | sudo tee /usr/share/keyrings/gnuslashlinux.gpg > /dev/null" readonly onclick="this.select();" style="width: 100%; background: transparent; color: #d8dee9; border: none; font-family: monospace; font-size: 14px; line-height: 1.6; outline: none; cursor: text;" />
   <small style="color: #616e88; display: block; margin-top: 8px;">💡 Klicke in die Zeile, um den Befehl direkt zu markieren (Strg+C / Cmd+C)</small>
 </div>
 
 ### 2. Repository zur Paketquelle hinzufügen / Add repository to package source
 
 <div style="background: #2e3440; padding: 16px 12px; border: 2px solid #A3BE8C; border-radius: 8px; margin-bottom: 1em;">
-  <input type="text" value="echo &quot;deb [signed-by=/usr/share/keyrings/gnuslashlinux.gpg] https://github.io trixie main&quot; | sudo tee /etc/apt/sources.list.d/gnuslashlinux.list" readonly onclick="this.select();" style="width: 100%; background: transparent; color: #d8dee9; border: none; font-family: monospace; font-size: 14px; line-height: 1.6; outline: none; cursor: text;" />
+  <input type="text" value="echo &quot;deb [signed-by=/usr/share/keyrings/gnuslashlinux.gpg] https://gnuslashlinux.github.io/GNUSlashLinux_Repo/ trixie main&quot; | sudo tee /etc/apt/sources.list.d/gnuslashlinux.list" readonly onclick="this.select();" style="width: 100%; background: transparent; color: #d8dee9; border: none; font-family: monospace; font-size: 14px; line-height: 1.6; outline: none; cursor: text;" />
   <small style="color: #616e88; display: block; margin-top: 8px;">💡 Klicke in die Zeile, um den Befehl direkt zu markieren (Strg+C / Cmd+C)</small>
 </div>
 
