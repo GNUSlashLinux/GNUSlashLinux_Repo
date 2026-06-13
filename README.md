@@ -1,6 +1,6 @@
 # GNUSlashLinux_Repo / repo.GNUSlashLinux
 
-> 🕒 **Letztes automatisches Update:** 13.06.2026 um 20:54 Uhr
+> 🕒 **Letztes automatisches Update:** 13.06.2026 um 21:05 Uhr
 
 ## 🎚️ admin@gnuslashlinux:~ $ apt-repo --info
 
@@ -23,15 +23,15 @@ You can install these packages directly from your APT package manager.
   </thead>
   <tbody>
 
-<tr><td><b>gnuslashlinux-base</b></td><td align='center'>1.0.0</td><td align='center'>all</td><td><span style='color: #A3BE8C; font-weight: bold;'>[ active ]</span></td></tr>
-<tr><td><b>gnuslashlinux-fonts</b></td><td align='center'>1.0.0</td><td align='center'>all</td><td><span style='color: #A3BE8C; font-weight: bold;'>[ active ]</span></td></tr>
-<tr><td><b>gnuslashlinux-grub</b></td><td align='center'>1.0.0</td><td align='center'>all</td><td><span style='color: #A3BE8C; font-weight: bold;'>[ active ]</span></td></tr>
-<tr><td><b>gnuslashlinux-grub-minimal</b></td><td align='center'>1.0.0</td><td align='center'>all</td><td><span style='color: #A3BE8C; font-weight: bold;'>[ active ]</span></td></tr>
-<tr><td><b>gnuslashlinux-plymouth-minimal</b></td><td align='center'>1.0.0</td><td align='center'>all</td><td><span style='color: #A3BE8C; font-weight: bold;'>[ active ]</span></td></tr>
-<tr><td><b>gnuslashlinux-plymouth</b></td><td align='center'>1.0.0</td><td align='center'>all</td><td><span style='color: #A3BE8C; font-weight: bold;'>[ active ]</span></td></tr>
-<tr><td><b>gnuslashlinux-shellset</b></td><td align='center'>1.0.0</td><td align='center'>all</td><td><span style='color: #A3BE8C; font-weight: bold;'>[ active ]</span></td></tr>
-<tr><td><b>gnuslashlinux-wallpapers</b></td><td align='center'>1.0.0</td><td align='center'>all</td><td><span style='color: #A3BE8C; font-weight: bold;'>[ active ]</span></td></tr>
-<tr><td><b>gnuslashlinux-wallpapers-nord</b></td><td align='center'>1.0.0</td><td align='center'>all</td><td><span style='color: #A3BE8C; font-weight: bold;'>[ active ]</span></td></tr>
+<tr><td><b>gnuslashlinux-base</b></td><td align='center'>1.0.0</td><td align='center'>amd64</td><td><span style='color: #A3BE8C; font-weight: bold;'>[ active ]</span></td></tr>
+<tr><td><b>gnuslashlinux-fonts</b></td><td align='center'>1.0.0</td><td align='center'>amd64</td><td><span style='color: #A3BE8C; font-weight: bold;'>[ active ]</span></td></tr>
+<tr><td><b>gnuslashlinux-grub</b></td><td align='center'>1.0.0</td><td align='center'>amd64</td><td><span style='color: #A3BE8C; font-weight: bold;'>[ active ]</span></td></tr>
+<tr><td><b>gnuslashlinux-grub-minimal</b></td><td align='center'>1.0.0</td><td align='center'>amd64</td><td><span style='color: #A3BE8C; font-weight: bold;'>[ active ]</span></td></tr>
+<tr><td><b>gnuslashlinux-plymouth-minimal</b></td><td align='center'>1.0.0</td><td align='center'>amd64</td><td><span style='color: #A3BE8C; font-weight: bold;'>[ active ]</span></td></tr>
+<tr><td><b>gnuslashlinux-plymouth</b></td><td align='center'>1.0.0</td><td align='center'>amd64</td><td><span style='color: #A3BE8C; font-weight: bold;'>[ active ]</span></td></tr>
+<tr><td><b>gnuslashlinux-shellset</b></td><td align='center'>1.0.0</td><td align='center'>amd64</td><td><span style='color: #A3BE8C; font-weight: bold;'>[ active ]</span></td></tr>
+<tr><td><b>gnuslashlinux-wallpapers</b></td><td align='center'>1.0.0</td><td align='center'>amd64</td><td><span style='color: #A3BE8C; font-weight: bold;'>[ active ]</span></td></tr>
+<tr><td><b>gnuslashlinux-wallpapers-nord</b></td><td align='center'>1.0.0</td><td align='center'>amd64</td><td><span style='color: #A3BE8C; font-weight: bold;'>[ active ]</span></td></tr>
 <tr><td><b>xwayland-satellite</b></td><td align='center'>0.8.1-1</td><td align='center'>amd64</td><td><span style='color: #A3BE8C; font-weight: bold;'>[ active ]</span></td></tr>
   </tbody>
 </table>
@@ -51,7 +51,7 @@ Run the following commands in your terminal to add the repository:
 ### 2. Repository zur Paketquelle hinzufügen / Add repository to package source
 
 <div style="background: #2e3440; padding: 16px 12px; border: 2px solid #A3BE8C; border-radius: 8px; margin-bottom: 1em;">
-  <input type="text" value="echo &quot;deb [signed-by=/usr/share/keyrings/gnuslashlinux.gpg] https://gnuslashlinux.github.io/GNUSlashLinux_Repo/ trixie main&quot; | sudo tee /etc/apt/sources.list.d/gnuslashlinux.list" readonly onclick="this.select();" style="width: 100%; background: transparent; color: #d8dee9; border: none; font-family: monospace; font-size: 14px; line-height: 1.6; outline: none; cursor: text;" />
+  <input type="text" value="echo &quot;deb [arch=amd64 signed-by=/usr/share/keyrings/gnuslashlinux.gpg] https://gnuslashlinux.github.io/GNUSlashLinux_Repo/ trixie main&quot; | sudo tee /etc/apt/sources.list.d/gnuslashlinux.list" readonly onclick="this.select();" style="width: 100%; background: transparent; color: #d8dee9; border: none; font-family: monospace; font-size: 14px; line-height: 1.6; outline: none; cursor: text;" />
   <small style="color: #616e88; display: block; margin-top: 8px;">💡 Klicke in die Zeile, um den Befehl direkt zu markieren (Strg+C / Cmd+C)</small>
 </div>
 
