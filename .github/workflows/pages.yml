@@ -1,9 +1,7 @@
 name: Deploy Jekyll site to Pages
 
 on:
-  push:
-    branches: ["main"]
-  workflow_dispatch:
+  workflow_dispatch: # Reagiert nur noch auf den API-Aufruf deines Paket-Workflows
 
 permissions:
   contents: read
