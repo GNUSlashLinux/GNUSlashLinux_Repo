@@ -1,6 +1,6 @@
 # GNUSlashLinux_Repo / repo.GNUSlashLinux
 
-> 🕒 **Letztes automatisches Update:** 13.06.2026 um 21:05 Uhr
+> 🕒 **Letztes automatisches Update:** 14.06.2026 um 11:09 Uhr
 
 ## 🎚️ admin@gnuslashlinux:~ $ apt-repo --info
 
@@ -24,15 +24,21 @@ You can install these packages directly from your APT package manager.
   <tbody>
 
 <tr><td><b>gnuslashlinux-base</b></td><td align='center'>1.0.0</td><td align='center'>amd64</td><td><span style='color: #A3BE8C; font-weight: bold;'>[ active ]</span></td></tr>
+<tr><td><b>eza</b></td><td align='center'>0.23.4-2+trixie</td><td align='center'>amd64</td><td><span style='color: #A3BE8C; font-weight: bold;'>[ active ]</span></td></tr>
 <tr><td><b>gnuslashlinux-fonts</b></td><td align='center'>1.0.0</td><td align='center'>amd64</td><td><span style='color: #A3BE8C; font-weight: bold;'>[ active ]</span></td></tr>
+<tr><td><b>fzf</b></td><td align='center'>0.73.1-1+trixie</td><td align='center'>amd64</td><td><span style='color: #A3BE8C; font-weight: bold;'>[ active ]</span></td></tr>
+<tr><td><b>ghostty</b></td><td align='center'>1.3.1-3+trixie</td><td align='center'>amd64</td><td><span style='color: #A3BE8C; font-weight: bold;'>[ active ]</span></td></tr>
 <tr><td><b>gnuslashlinux-grub</b></td><td align='center'>1.0.0</td><td align='center'>amd64</td><td><span style='color: #A3BE8C; font-weight: bold;'>[ active ]</span></td></tr>
 <tr><td><b>gnuslashlinux-grub-minimal</b></td><td align='center'>1.0.0</td><td align='center'>amd64</td><td><span style='color: #A3BE8C; font-weight: bold;'>[ active ]</span></td></tr>
+<tr><td><b>lowfi</b></td><td align='center'>2.0.6-1+trixie</td><td align='center'>amd64</td><td><span style='color: #A3BE8C; font-weight: bold;'>[ active ]</span></td></tr>
 <tr><td><b>gnuslashlinux-plymouth-minimal</b></td><td align='center'>1.0.0</td><td align='center'>amd64</td><td><span style='color: #A3BE8C; font-weight: bold;'>[ active ]</span></td></tr>
 <tr><td><b>gnuslashlinux-plymouth</b></td><td align='center'>1.0.0</td><td align='center'>amd64</td><td><span style='color: #A3BE8C; font-weight: bold;'>[ active ]</span></td></tr>
 <tr><td><b>gnuslashlinux-shellset</b></td><td align='center'>1.0.0</td><td align='center'>amd64</td><td><span style='color: #A3BE8C; font-weight: bold;'>[ active ]</span></td></tr>
 <tr><td><b>gnuslashlinux-wallpapers</b></td><td align='center'>1.0.0</td><td align='center'>amd64</td><td><span style='color: #A3BE8C; font-weight: bold;'>[ active ]</span></td></tr>
 <tr><td><b>gnuslashlinux-wallpapers-nord</b></td><td align='center'>1.0.0</td><td align='center'>amd64</td><td><span style='color: #A3BE8C; font-weight: bold;'>[ active ]</span></td></tr>
 <tr><td><b>xwayland-satellite</b></td><td align='center'>0.8.1-1</td><td align='center'>amd64</td><td><span style='color: #A3BE8C; font-weight: bold;'>[ active ]</span></td></tr>
+<tr><td><b>yazi</b></td><td align='center'>26.5.6-1+trixie</td><td align='center'>amd64</td><td><span style='color: #A3BE8C; font-weight: bold;'>[ active ]</span></td></tr>
+<tr><td><b>zoxide</b></td><td align='center'>0.9.9-3+trixie</td><td align='center'>amd64</td><td><span style='color: #A3BE8C; font-weight: bold;'>[ active ]</span></td></tr>
   </tbody>
 </table>
 

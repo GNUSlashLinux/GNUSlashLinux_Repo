@@ -1,13 +1,66 @@
+Package: eza
+Priority: optional
+Section: utils
+Maintainer: Dario Griffo <dariogriffo@gmail.com>
+Architecture: amd64
+Version: 0.23.4-2+trixie
+Filename: pool/main/e/eza/eza_0.23.4-2+trixie_amd64.deb
+Size: 851840
+MD5sum: 23e8471d8d0a3fe6f3cf455e0546c5b8
+SHA1: 0748536956820ee11bbaead56f3a3e7141ef53c3
+SHA256: e8b945cb95d577d6a6a3657138dc898f6942af58f2e765eacc6aecad068e0a78
+SHA512: 295c8b392bf7ee2ae0e479adde03990585efd8d486dde1b80f2e704faa27f8627770fea696cc55df4db347cefdb1f4d4097e32de5d195f7a95753ee40fbe9e48
+Description: A modern replacement for ls.
+Homepage: https://github.com/dariogriffo/eza-debian
+
+Package: fzf
+Priority: optional
+Section: utils
+Maintainer: Dario Griffo <dariogriffo@gmail.com>
+Architecture: amd64
+Source: fzf
+Version: 0.73.1-1+trixie
+Filename: pool/main/f/fzf/fzf_0.73.1-1+trixie_amd64.deb
+Size: 1529352
+MD5sum: 559558f2bc07ca7cde865e797690a1a9
+SHA1: 178eac508f990d8206dfe69642a80f316e0462e0
+SHA256: 70c6f14eae642d811f1671239c889c8c6c00498581b51fdcaf424b47546363ec
+SHA512: 5ab9ac03b23d4d9a34713dbd6b052c6c79f6e515e7ec1b22c9b76cd5f8bd45b3258ef4038b45c5f8a75dc21f52ed4777713e129e23d4698172e22b98fd325700
+Description: A general-purpose command-line fuzzy finder.
+Homepage: https://github.com/dariogriffo/fzf-debian
+
+Package: ghostty
+Priority: optional
+Section: utils
+Installed-Size: 34958
+Maintainer: Dario Griffo <dariogriffo@gmail.com>
+Architecture: amd64
+Version: 1.3.1-3+trixie
+Provides: x-terminal-emulator
+Depends: libadwaita-1-0 (>= 1.5~beta), libc6 (>= 2.38), libglib2.0-0t64 (>= 2.76.0), libgtk-4-1 (>= 4.15.4), libgtk4-layer-shell0 (>= 1.0.2), libwayland-client0 (>= 1.0.2), libx11-6, libfontconfig1, libfreetype6, libharfbuzz0b, libonig5
+Filename: pool/main/g/ghostty/ghostty_1.3.1-3+trixie_amd64.deb
+Size: 18185960
+MD5sum: b1234af875fba7a118b732daab09197c
+SHA1: 68a49cbc5630304b2c52f5d8a015865bef28b84a
+SHA256: c46b9d84b61e62c235d7db2e2ab1af983253d678ca76221e903aab4ea8b3d712
+SHA512: c214b2b3728ea7d40f7b0d6530bab407dd55db90d878727d8dd6366ccd3ca6d4c28c88a6ee47fa7f288a6c044a9918cdd1d5ebcbb0a8f184f23197daf345f736
+Description: Fast, feature-rich, and cross-platform terminal emulator
+ Ghostty is a terminal emulator that differentiates itself by being fast,
+ feature-rich, and native. While there are many excellent terminal emulators
+ available, they all force you to choose between speed, features, or native
+ UIs. Ghostty provides all three. This is an unofficial package.
+Homepage: https://ghostty.org/
+
 Package: gnuslashlinux-base
 Maintainer: GNUSlashLinux <info@gnuslashlinux.com>
 Architecture: amd64
 Version: 1.0.0
 Filename: pool/main/g/gnuslashlinux-base/gnuslashlinux-base_1.0.0_amd64.deb
-Size: 16069404
-MD5sum: 32d2357c136de0853894c37f7e7efa7c
-SHA1: 165c3a2441456dd23681e528f0bdc249d37d99e9
-SHA256: 2fb68993f59392e6f37044f8f56194cedb5e6d3c98c0973ac1043b8dccb4e995
-SHA512: c06a98f62a368aba87ad794231524b3ee9fab7f17715d665ecb83713934d98b16b11f2b66881f9c62267052bec07579ad181b6996d56fe114f04db25b796b760
+Size: 16069566
+MD5sum: 2b35687d48f35c4e2415649ca11878c0
+SHA1: 05e78b453c66bfeed352976bdc562d160d0d7528
+SHA256: 60eee947703546b679e1f1f6762c27f98648fe9a4adee6bce79dd734e6020a6f
+SHA512: be54196f28575b2365abc6e29523267ee98a3692909dbe6c633ba82d6f37974f7d55484ea17f149652092495cca71ca891882a7dd070fd791e4b605e0dffa318
 Description: GNUSlashLinux basic configuration and scripts
  [DE] Das Kern-Paket fuer die GNUSlashLinux-Distribution. Es enthaelt
  grundlegende Systemkonfigurationen und essentielle Skripte.
@@ -20,11 +73,11 @@ Maintainer: GNUSlashLinux <info@gnuslashlinux.com>
 Architecture: amd64
 Version: 1.0.0
 Filename: pool/main/g/gnuslashlinux-fonts/gnuslashlinux-fonts_1.0.0_amd64.deb
-Size: 22040170
-MD5sum: cae5647e3e8ccd7f1c643a15a6dca704
-SHA1: b4870be4151ad6d239d5bd970fdce727124c964d
-SHA256: 6436e599491b80927bdb687da38bc19fd5b47452c6cfd5dd0e3e135f84ccb1a0
-SHA512: dd12dc565ba2d729a9403d32165bfc667f86a64b35ceb7b4083d173fdc642053ddcd8ee50a5208f9a0baf48ff084365f87bb5fbbc1b6e56bb927fbb1ba1ad9e2
+Size: 22041478
+MD5sum: cd2745fceaf737da4ccd20f391c767a4
+SHA1: 8e07d0a042707004273895de0b003e184991b63c
+SHA256: 3f8a6db6031d8aa054fdc5083237da0e3cd76c192274e1d381dfc47a4b939a29
+SHA512: 37dd5688645edabc9884bdea1cc38274cb039b1831b6d7426541df9bb2e5801307e8c50eed78c96ed355353bd94b7ee79bc3b868205e217a1ac1ad4330c37d05
 Description: System fonts for GNUSlashLinux
  [DE] Enthaelt die offiziellen und optimierten Schriftarten fuer die
  Benutzeroberflaeche und das Terminal von GNUSlashLinux.
@@ -38,11 +91,11 @@ Architecture: amd64
 Version: 1.0.0
 Depends: grub-pc | grub-efi-amd64
 Filename: pool/main/g/gnuslashlinux-grub/gnuslashlinux-grub_1.0.0_amd64.deb
-Size: 2491584
-MD5sum: cc7658ec4ac878d8255f0d4847747ecf
-SHA1: 1371d6e8d37eb92d1d9e5b4ca5979e31d1897baf
-SHA256: fbb1b351de1e178f093c0e2eec9192b8d5b394d15c69bba9a1f11864503ffa32
-SHA512: 2b7923e1bf3f6d6ee7330b21ee8633827a670e63303d6091eb2f391e3f47502e7c992c1951eb1cbbd50c4cd8302b44438deffa0a8b9531d4106a5b8d5d0f446c
+Size: 2491590
+MD5sum: 16af473392ef4b5d6614f19fdd72811f
+SHA1: a9aae773d6361f8d27e32df49ec77f915b9d5547
+SHA256: 7725710f1cedde48ac5fd01e5c989220f2df72bea86596a3e0cfb940b327cf5e
+SHA512: 970c08786608800ddd04253818e4a4cd31c2076527f93f8bec524b6fefafdfd4e2a52a1f1eb49f4d4e22f0900c2af230b7bac8cbc7d800a69a6255e9bb0384ce
 Description: GNUSlashLinux GRUB bootloader theme
  [DE] Ein massgeschneidertes, visuelles Design fuer das GRUB-Bootmenue
  von GNUSlashLinux beim Systemstart.
@@ -56,11 +109,11 @@ Architecture: amd64
 Version: 1.0.0
 Depends: grub-pc | grub-efi-amd64
 Filename: pool/main/g/gnuslashlinux-grub-minimal/gnuslashlinux-grub-minimal_1.0.0_amd64.deb
-Size: 3488576
-MD5sum: ba66fda824d36e629941dc8d40ee49dc
-SHA1: 26a2e9cdd2e3a833b476ddd0efa643f2390d8d34
-SHA256: 9c3f459f877e1ef9b5f69883c278a68de200dae2975051f19d48d3a909b4baac
-SHA512: 65d89104d1c9c5144050cb3152ff291d63cfe6cf922c7cffcd86bc3728eb2303eb4167c824343d08eacc96562be4a1e9028c06ee247402b2b9a0c245cfba8c2c
+Size: 3488574
+MD5sum: e6938e6934c96e54a4ee0341feec5cbb
+SHA1: bdbe640c3ef3d68b7d3ccee2629101a4ce223ae1
+SHA256: e81604d9d1799ed0adfdf6adfe05beb44b7815233c76beb78e971894ae684d6a
+SHA512: 0a0208785feb0390708422cd9c4a2f514b71232c8dd6e9db4ef93ef6bed65f50f7981760f8c4836eb2f81eb4d55021a6a56f9185946dc13d3064c668e92d8145
 Description: GNUSlashLinux GRUB-Minimal bootloader theme
  [DE] Ein massgeschneidertes, visuelles Design fuer das GRUB-Bootmenue
  von GNUSlashLinux beim Systemstart.
@@ -74,11 +127,11 @@ Architecture: amd64
 Version: 1.0.0
 Depends: plymouth
 Filename: pool/main/g/gnuslashlinux-plymouth/gnuslashlinux-plymouth_1.0.0_amd64.deb
-Size: 61744
-MD5sum: b77a64f3d5911889fa9d494b80854263
-SHA1: cbddec4630cfcf1870eb55f45353309cb66ab34f
-SHA256: 3f8bba42ada15b6e47c4699c2f3da7e4ebd938961a41d5c31c222ae9bc70a7e7
-SHA512: 9696d60557c32e7de49bf81758c0a6c3ced20d7aa68310eb35fb155c407deaf00b12639d9d87a50d00d26af7a4238e3ed973821cd773a136d2b837b27fe1d4ad
+Size: 61764
+MD5sum: bd8e7621365908f3e14901b828fd84c6
+SHA1: 6a15117170361b887833101102511321bd3735ea
+SHA256: 34d7b08b8d8d3a3ad246673f8e70f979faff4cf5363ce78b1580523c786e97e7
+SHA512: 93c9eb0a9634f4f8e8e2c18f4fe70e4faf7062dcacc0f9ce148a9659d31d7f9ff9b9bcc811ebc086fddb31f41e41b10417f9407fffa4d990bcf3309d2dd1c229
 Description: GNUSlashLinux boot animation (Plymouth)
  [DE] Enthaelt die offizielle, animierte Lade-Grafik fuer den
  Systemstart und das Herunterfahren von GNUSlashLinux.
@@ -92,11 +145,11 @@ Architecture: amd64
 Version: 1.0.0
 Depends: plymouth
 Filename: pool/main/g/gnuslashlinux-plymouth-minimal/gnuslashlinux-plymouth-minimal_1.0.0_amd64.deb
-Size: 70362
-MD5sum: 69d0055de07083fc12aade60e52c90e1
-SHA1: 897fee6e7ec5860de583d56dd1c36dee7c51def3
-SHA256: 145bc011fd12e8b9142282201965f151c28f0bdf5cb3cd17ca307f8a42312d0e
-SHA512: 739c520970544ab613b14119251ceb087e5cdd076c295f1021309c09b9d2d05af9980ed56bd95d391b9d182e250d558a68b8593dd76ea8bababf40c7d501cd44
+Size: 70356
+MD5sum: 572dcd956b84e67427ca0764242f07e5
+SHA1: 3b8b87f76a632e9981fd6e8ecbcf82330b6890c4
+SHA256: 8b513d72da68c7b4c28fd1590248f68f0c969272d545e67628f26b808c99bda1
+SHA512: 2ff3e0b3b6106f0bc389bdb8c9d2bb7bf7a8ccf7bbebec841d78e1b1d9cd66075ddfd0db8d554553975381cba5269bb4963029c501dc38174b9b4c006ebf90b6
 Description: GNUSlashLinux boot animation (Plymouth)
  [DE] Enthaelt die offizielle, animierte Lade-Grafik fuer den
  Systemstart und das Herunterfahren von GNUSlashLinux.
@@ -109,11 +162,11 @@ Maintainer: GNUSlashLinux <info@gnuslashlinux.com>
 Architecture: amd64
 Version: 1.0.0
 Filename: pool/main/g/gnuslashlinux-shellset/gnuslashlinux-shellset_1.0.0_amd64.deb
-Size: 3916
-MD5sum: 49aeb24117e785aeafa0820e5a8e3efe
-SHA1: 69ce50cf5c0eb2c01dc589e69c05181fbb66e33f
-SHA256: a5bebd5816e247cf75de6233a94eebbfa55b1cd48c7bf5ce559374a2f0e758b8
-SHA512: 163b7e08bd5bbfad9f02c078ac886360d6223c45b6340444948699237652b8304a1016481679bacd3f9b836f23857534bc2abcf7ef457dcc355d3ee48a438860
+Size: 3914
+MD5sum: e97335545d9f4ff9942ac24acc9bcb59
+SHA1: ff5b8b22f57958027fe490d329a204a61bf0c424
+SHA256: 5f200d1e3d8082d536c40513a50438c0006a629684b695e5417d2d27f4ab74dc
+SHA512: 5caff9ec0e28b258f95c7b8d9d4c2d347a3884a44b5b7e38f2ddfbe7a83f84ab06de067ec201bc69d1bb67a05d6babd93b9c66656625a7d3cdc225bb5bbe602a
 Description: GNUSlashLinux shell configuration
  [DE] Wähle zwischen bash, fish und zsh.
  .
@@ -124,11 +177,11 @@ Maintainer: GNUSlashLinux <info@gnuslashlinux.com>
 Architecture: amd64
 Version: 1.0.0
 Filename: pool/main/g/gnuslashlinux-wallpapers/gnuslashlinux-wallpapers_1.0.0_amd64.deb
-Size: 95074356
-MD5sum: 970308c32c1bbb3bbbbfc1fe4d7a04e9
-SHA1: 2208853aa61a70b48a4dd2868ec7ff14f312ced5
-SHA256: f4e3e9668578752325bc8d201265c2b244dda12afeaf8f73ea50ebb04fe9ac75
-SHA512: 7f783ae4fd7e6b1d8b8dbcb99c0bcdca0c1a1a830f1e801710720aff4d09b94c81785cde1c2c73705762c78ea4499dd906b0fb3e23620ed6cd9d94795396d16e
+Size: 95074390
+MD5sum: c8d2ccfad403652578b4b2c175bca176
+SHA1: 7861a680c07f42410d606ee4550326ef6bc0b09e
+SHA256: 830a011fd599322c4e04d529a3065a2e1bac841a6e3a606719608ff925722b2a
+SHA512: 02e461ed7d2afece0f88f5a1921a008788b9ebdc0559cd008afc31c45d1bc51b22b94ef24ef3f9a5de2d03ec840585bfed1cf0c04cb7d179f7a09f9ae632f179
 Description: Official GNUSlashLinux wallpapers
  [DE] Die Standard-Auswahl an hochaufloesenden Hintergrundbildern
  fuer das GNUSlashLinux-System.
@@ -141,17 +194,33 @@ Maintainer: GNUSlashLinux <info@gnuslashlinux.com>
 Architecture: amd64
 Version: 1.0.0
 Filename: pool/main/g/gnuslashlinux-wallpapers-nord/gnuslashlinux-wallpapers-nord_1.0.0_amd64.deb
-Size: 114111100
-MD5sum: ae722b58004553eefa8cb512ab561739
-SHA1: 73b88eedf021c3ae6e707229cf8802549b60829a
-SHA256: 478823017b0f51b66ae1f9535d47a226919787dbc33895379514430c77ae269b
-SHA512: 3969bd9c9df2331d956f4eaac659d636f7553935627f6e414781e44431ecd426dfe760e752801eeab98f44123c45048a3111e97ce4e5dce36a4d212147d6916d
+Size: 114111102
+MD5sum: 0215a2d7f4ede6d6b4ba979bf30e8ecf
+SHA1: 5cf76a723cde94aa20477dbef4e61b1c60e83fd0
+SHA256: 40641aa610cecd27ff25791f56c24c6f03752bad7b1deb781dafaf012e815a77
+SHA512: 054d80974f69043e814697f116ccb960c077555b23e44e5c38b812fb761beb66381717be6111eb4d436a27449eeb0317ac4442c6eabc336460b8a0d07f841835
 Description: GNUSlashLinux wallpapers in Nord style
  [DE] Eine alternative Kollektion von Hintergrundbildern, angepasst
  an die kuehle Farbpalette des Nord-Designs.
  .
  [EN] An alternative collection of wallpapers adapted to the cool
  color palette of the Nord design.
+
+Package: lowfi
+Priority: optional
+Section: utils
+Maintainer: Dario Griffo <dariogriffo@gmail.com>
+Architecture: amd64
+Source: lowfi
+Version: 2.0.6-1+trixie
+Filename: pool/main/l/lowfi/lowfi_2.0.6-1+trixie_amd64.deb
+Size: 4094576
+MD5sum: f7bf09660e8a2297eb0f7b111ca792f5
+SHA1: 7f53c2004ed574ba1717a4cec847ca3a7d26fb56
+SHA256: 41427a50bcea0c57b8377e3ac7cd70b1c92e3540c4ef2f128b8a48b85d215d72
+SHA512: 02d517d4845d3ec6fac6d78a0a4532440bd98a540f07a60c35221dd18a2544aee0a78deb541a7de06be3206f2d038a5e4c9e1a9e50138c37469c5bf881e0bbd3
+Description: An extremely simple lofi player.
+Homepage: https://github.com/talwat/lowfi
 
 Package: xwayland-satellite
 Priority: optional
@@ -275,4 +344,37 @@ Description: xwayland-satellite grants rootless Xwayland integration to any Wayl
  You can view [Niri's implementation of this
  integration](https://github.com/YaLTeR/niri/pull/1728/files) for understanding
  how it should work.
+
+Package: yazi
+Priority: optional
+Section: utils
+Maintainer: Dario Griffo <dariogriffo@gmail.com>
+Architecture: amd64
+Source: yazi
+Version: 26.5.6-1+trixie
+Depends: ffmpeg, 7zip, jq, poppler-utils, fd-find, ripgrep, fzf, zoxide, imagemagick, file
+Filename: pool/main/y/yazi/yazi_26.5.6-1+trixie_amd64.deb
+Size: 7352488
+MD5sum: b0dd361276904f5241180d57820f2100
+SHA1: c2a493d19755552b7f89ac8830ba07ee5bf993c8
+SHA256: 9060d74efac76b8e64c842f6debf6738b5d67b70584b2ae693b3690cc8d38043
+SHA512: 934e1ea1eeac4ca273f88449aa43ec9ed747df5d761b42bf9633a3434dedf0ea38fe32c429dc8a501903f2d880d6f3dec5fa191f77b8057afb686880e38716ef
+Description: a terminal file manager written in Rust, based on non-blocking async I/O
+Homepage: https://github.com/sxyazi/yazi
+
+Package: zoxide
+Priority: optional
+Section: utils
+Maintainer: Dario Griffo <dariogriffo@gmail.com>
+Architecture: amd64
+Source: zoxide
+Version: 0.9.9-3+trixie
+Filename: pool/main/z/zoxide/zoxide_0.9.9-3+trixie_amd64.deb
+Size: 420808
+MD5sum: 35f66927baed533cde78b2882fd3f150
+SHA1: 770f2a153a898762fe928f5bae35b72e2834183c
+SHA256: 5f01e0b2b77419f1084d55d4ff2abd2416df287462803fd89bcb025ef515f9e7
+SHA512: be6eef70fe3d54f5e779ab96eaa60b214ccaba49209e822992098d59bd5768cad61156a3c1c6aaf62b5d6166d3e307f3c040fd366604a0f80e510b9780620a15
+Description: a smarter cd command, inspired by z and autojump.
+Homepage: https://github.com/ajeetdsouza/zoxide
 
