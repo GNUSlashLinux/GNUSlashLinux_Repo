@@ -7,6 +7,9 @@ remote_theme: b2a3e8/jekyll-theme-console
 # Schaltet das Design exakt auf die Nord-Farbpalette um
 style: nord
 
+# Google Fonts deaktivieren
+disable_google_fonts: true
+
 plugins:
   - jekyll-remote-theme
 
