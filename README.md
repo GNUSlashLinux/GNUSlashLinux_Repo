@@ -1,6 +1,6 @@
 # GNUSlashLinux_Repo / repo.GNUSlashLinux
 
-> 🕒 **Letztes automatisches Update:** 16.06.2026 um 17:59 Uhr
+> 🕒 **Letztes automatisches Update:** 16.06.2026 um 18:29 Uhr
 
 ## 🎚️ admin@gnuslashlinux:~ $ apt-repo --info
 
@@ -33,7 +33,6 @@ You can install these packages directly from your APT package manager.
 <tr><td><b>gnuslashlinux-grub-minimal</b></td><td align='center'>1.0.0</td><td align='center'>amd64</td><td><span style='color: #A3BE8C; font-weight: bold;'>[ active ]</span></td></tr>
 <tr><td><b>lowfi</b></td><td align='center'>2.0.6-1+trixie</td><td align='center'>amd64</td><td><span style='color: #A3BE8C; font-weight: bold;'>[ active ]</span></td></tr>
 <tr><td><b>ly-dinit</b></td><td align='center'>0.6.0-1</td><td align='center'>amd64</td><td><span style='color: #A3BE8C; font-weight: bold;'>[ active ]</span></td></tr>
-<tr><td><b>ly</b></td><td align='center'>0.6.0-1</td><td align='center'>amd64</td><td><span style='color: #A3BE8C; font-weight: bold;'>[ active ]</span></td></tr>
 <tr><td><b>gnuslashlinux-plymouth-minimal</b></td><td align='center'>1.0.0</td><td align='center'>amd64</td><td><span style='color: #A3BE8C; font-weight: bold;'>[ active ]</span></td></tr>
 <tr><td><b>gnuslashlinux-plymouth</b></td><td align='center'>1.0.0</td><td align='center'>amd64</td><td><span style='color: #A3BE8C; font-weight: bold;'>[ active ]</span></td></tr>
 <tr><td><b>gnuslashlinux-shellset</b></td><td align='center'>1.0.0</td><td align='center'>amd64</td><td><span style='color: #A3BE8C; font-weight: bold;'>[ active ]</span></td></tr>
