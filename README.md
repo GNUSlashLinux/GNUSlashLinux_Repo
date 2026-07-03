@@ -1,6 +1,6 @@
 # GNUSlashLinux_Repo / repo.GNUSlashLinux
 
-> 🕒 **Letztes automatisches Update:** 03.07.2026 um 13:14 Uhr
+> 🕒 **Letztes automatisches Update:** 03.07.2026 um 13:22 Uhr
 
 ## 🎚️ admin@gnuslashlinux:~ $ apt-repo --info
 
@@ -25,7 +25,7 @@ You can install these packages directly from your APT package manager.
 
 <tr><td><b>gnuslashlinux-alpha-utilz</b></td><td align='center'>1.0.0</td><td align='center'>amd64</td><td><span style='color: #A3BE8C; font-weight: bold;'>[ active ]</span></td></tr>
 <tr><td><b>gnuslashlinux-base</b></td><td align='center'>1.0.0</td><td align='center'>amd64</td><td><span style='color: #A3BE8C; font-weight: bold;'>[ active ]</span></td></tr>
-<tr><td><b>distroclone</b></td><td align='center'>1.0.0</td><td align='center'>amd64</td><td><span style='color: #A3BE8C; font-weight: bold;'>[ active ]</span></td></tr>
+<tr><td><b>gnuslashlinux-distroclone</b></td><td align='center'>1.0.0</td><td align='center'>amd64</td><td><span style='color: #A3BE8C; font-weight: bold;'>[ active ]</span></td></tr>
 <tr><td><b>eza</b></td><td align='center'>0.23.4-2+trixie</td><td align='center'>amd64</td><td><span style='color: #A3BE8C; font-weight: bold;'>[ active ]</span></td></tr>
 <tr><td><b>gnuslashlinux-fonts</b></td><td align='center'>1.0.0</td><td align='center'>amd64</td><td><span style='color: #A3BE8C; font-weight: bold;'>[ active ]</span></td></tr>
 <tr><td><b>fzf</b></td><td align='center'>0.73.1-1+trixie</td><td align='center'>amd64</td><td><span style='color: #A3BE8C; font-weight: bold;'>[ active ]</span></td></tr>
