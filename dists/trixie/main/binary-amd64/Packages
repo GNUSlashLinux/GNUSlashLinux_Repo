@@ -75,11 +75,11 @@ Maintainer: GNUSlashLinux <info@gnuslashlinux.com>
 Architecture: amd64
 Version: 1.0.0
 Filename: pool/main/g/gnuslashlinux-alpha-utilz/gnuslashlinux-alpha-utilz_1.0.0_amd64.deb
-Size: 72264
-MD5sum: e5943a8a4be73db099d7609014277cd2
-SHA1: 44447f8e25d543471f4539996695c760a42e6750
-SHA256: 3236da6411c11f577b959353e5d9f2f25611f9489588fd717734cb3d5ff2d121
-SHA512: 080eb40f8ab3bdaa04ade61305ab6b9c8c574ab18eed797af7a3a47c3fda3344729dfb591e77627cac8940d509f1dec245aec1e791728de8baefb04e2fadf680
+Size: 72288
+MD5sum: 00c5a369027c1fc9b64390dbacd0bc11
+SHA1: 48a58307655924213cb12c69cdc24f56c7bb2f33
+SHA256: 3ac3a1a0fc7951d711359bc6f124c852b7eefb9152afc109ee8f7528dd196f4d
+SHA512: 04601c21fd5da5dd77fecb06a14e8acc692b28b1628420acd88640d9047f688b517ae1131a9a23da099a0a999e6b2022a8923b14a9c308fc069580bac1832428
 Description: GNUSlashLinux alpha-utilz
  [DE] Erstellt ISO-Snapshots, schreibt ISO-Dateien auf USB-Sticks,
  startet Systeme über eine Live-Umgebung und ermöglicht die Erstellung eines
@@ -94,11 +94,11 @@ Maintainer: GNUSlashLinux <info@gnuslashlinux.com>
 Architecture: amd64
 Version: 1.0.0
 Filename: pool/main/g/gnuslashlinux-base/gnuslashlinux-base_1.0.0_amd64.deb
-Size: 15964668
-MD5sum: 89a5a08e3370d196bf7abb5772fcade5
-SHA1: 1981cc4aeac2b3e5b43d36feb7ad61dd269ed401
-SHA256: 146df8b81623032e5e2c0d35bea51d3bc6d57f9c552a370c892bc4646ba3c900
-SHA512: 95461a4b206fd48c71121d7d3a1926a3a449ea7be865e536710a589b229ae5bb61f075496e483b3d07208c09efe368540d33585ef68de99f9c6d7424dcb5f430
+Size: 15965136
+MD5sum: 5e278a85babed396be8f52c364db38a6
+SHA1: 04cddb9d84e7ed3d0af3b1832577f806c7c5ba29
+SHA256: a31e250db4e3b1bc4ac150af60f6b32c5f3a1fcb091d172a85a80def30d3aa75
+SHA512: 491eb1e48e810956fe21edbeba4babc2cbab8342b8eb0d3ea64fcc09c6857b728d78d2102b2aecb835870bb7a1821c1ee29f69550c51aa347d4e4df5e341b8b2
 Description: GNUSlashLinux basic configuration and scripts
  [DE] Das Kern-Paket fuer die GNUSlashLinux-Distribution. Es enthaelt
  grundlegende Systemkonfigurationen und essentielle Skripte.
@@ -117,11 +117,11 @@ Depends: bash, rsync, xorriso, mtools, syslinux-utils, syslinux-common, isolinux
 Recommends: yad, zenity, grub-efi-amd64, efibootmgr, calamares, calamares-settings-debian, os-prober, fdisk, live-boot, live-config
 Suggests: polkitd | policykit-1
 Filename: pool/main/g/gnuslashlinux-distroclone/gnuslashlinux-distroclone_1.0.0_amd64.deb
-Size: 2077556
-MD5sum: c41f7e1ab2b54b6cf1be3415b7b051df
-SHA1: a55df3daca1c6ea3c90f494f1da0a0ae43f10b1c
-SHA256: fca8061c831053e35a9e4294fb87db019739f5b6fc70411c2b1857a992a416ac
-SHA512: a8246f69618773fadea2f963dc32e1c1da5b4ebf6ca9dd9e0e7f63068d1b10c8766a76c1268fe3830154efe0bae748597faa989c90543f2a751128ed43af8e70
+Size: 2077572
+MD5sum: 1527b870d7609980763145c296180e5d
+SHA1: 1cb52e4ccd4453e80722885ff435a54ac46db70e
+SHA256: 6de850d456befffa052ed42ee655a4591a5770d0b846b7684f04cc526d8f2a46
+SHA512: 359a75870a9807061215c5b863a7a17c4cb734ae3d5aeef975c05eafea424f9184a32445388372e6133e9fba32a78997a9926cd45d2ef043258fabf6a8158b61
 Description: DistroClone - Universal Live ISO Builder
  Create customized bootable live ISO images from any running
  Debian-based system (Debian, Ubuntu, Linux Mint, Elementary OS,
@@ -142,11 +142,11 @@ Maintainer: GNUSlashLinux <info@gnuslashlinux.com>
 Architecture: amd64
 Version: 1.0.0
 Filename: pool/main/g/gnuslashlinux-fonts/gnuslashlinux-fonts_1.0.0_amd64.deb
-Size: 20046056
-MD5sum: 09a3934f38b8935f123446dd7a609df8
-SHA1: 9ecedf31235da74e0e78460da760938b5eeedc6a
-SHA256: b00b188b918e31ee11038f10fd8b0d64ef32ea6af2badc8d3b3589ab6efbbcf3
-SHA512: b1264c5a0ca190d97289c3acbf3822285e32bd46098d996b752d1252cb5cb10a32ab0f1219c21ce591f5ab8feb6f3f1dfccfbf4847e0cafe618f4dbfacdbc644
+Size: 20045420
+MD5sum: 9addbc8c3866d917bf3ec8d9d5311396
+SHA1: 11afeae016397070839f7cb1332619e9dc76c612
+SHA256: 436363d5a4a2f4a1daf58b1f226757599e096ab597c55a20ac5a6f7540116b9e
+SHA512: 2ebc3eb3ae530e954680901b7f5f0814ee9d7d653e9b10cd64d846c5ee5cbdac35d48667b90b18ab03619ec631d9b607d4e0f3f93c4faccdda06cd85be1445fd
 Description: System fonts for GNUSlashLinux
  [DE] Enthaelt die offiziellen und optimierten Schriftarten fuer die
  Benutzeroberflaeche und das Terminal von GNUSlashLinux.
@@ -161,10 +161,10 @@ Version: 1.0.0
 Depends: grub-pc | grub-efi-amd64
 Filename: pool/main/g/gnuslashlinux-grub/gnuslashlinux-grub_1.0.0_amd64.deb
 Size: 2495208
-MD5sum: d3f6c604742f5b33b28d249e4f90447c
-SHA1: 6c7a8077dfdef981faacc43930adfa5ff2985f87
-SHA256: 74723d1f3a818a1b2504fa62a1011c23be0550ab62e916923f0e0db6e88f37ed
-SHA512: 4f0b5b054b19de9734582942263b27350ff3ca290b27516c514841fc25274669d07ef05c6bae39260811acc9fd4b4f8f2829fbe2be1c08523687c5d48ddf5517
+MD5sum: 2d733fb29355af8072333d58b174dad0
+SHA1: be03c311adbd8b573292245bdc9dc677933b81c9
+SHA256: d5b02fce7aa8411b7b172e758b18cb0f715af4843ba0948e073c0df33077c36d
+SHA512: e3514b42ca040e53c53f73a4cd8c780ba90c42af32034ce3d03093537a3d82b20d1d430b350fa3f68e313ff150bd429059b84b4fc0b1361f4f9c017124a22164
 Description: GNUSlashLinux GRUB bootloader theme
  [DE] Ein massgeschneidertes, visuelles Design fuer das GRUB-Bootmenue
  von GNUSlashLinux beim Systemstart.
@@ -179,10 +179,10 @@ Version: 1.0.0
 Depends: grub-pc | grub-efi-amd64
 Filename: pool/main/g/gnuslashlinux-grub-2/gnuslashlinux-grub-2_1.0.0_amd64.deb
 Size: 2839752
-MD5sum: 795cd48345a055d23cea0afd348a19eb
-SHA1: 9e1d653fd15081bc26e165226709b67508b780b0
-SHA256: 700ac5ffa17fcbb2f762cb1adcac736a4dbd97d9ccd990097cf33f67b243edbc
-SHA512: 1133cdc76f5c2c17cf370030abc24dda3a740d23ee091bc086700edbc037a22b83df7356d07d6b81936b80324ac007578c2eb461825b86ab6d0b62d61f7fc5c0
+MD5sum: ef1a78ed302bd6a617958e687c815546
+SHA1: 2a8c33f5f59c27ec77257f66f74e60ab05ae976b
+SHA256: 9239940fdbe54af309d042dd088d4e18604a28278e53ada049103f3cbdce3bf1
+SHA512: f2df19cdd09f5365bb36f8614c171a8709a19833092d78b48b695430278f9f81d5e18f8d032bce8b0bcaf8637bc3da25348b8cf7415ec6a14da63b05fc7b5943
 Description: GNUSlashLinux GRUB bootloader theme
  [DE] Ein massgeschneidertes, visuelles Design fuer das GRUB-Bootmenue
  von GNUSlashLinux beim Systemstart.
@@ -196,11 +196,11 @@ Architecture: amd64
 Version: 1.0.0
 Depends: grub-pc | grub-efi-amd64
 Filename: pool/main/g/gnuslashlinux-grub-minimal/gnuslashlinux-grub-minimal_1.0.0_amd64.deb
-Size: 3131612
-MD5sum: 8fe3096811c067e2fc1fa96cd74a6c1e
-SHA1: a7f4a29b87408e32aaffe095b9759e4873f828cb
-SHA256: 38c101f3cc36eaab847e8bca4f29ae37dbe39d74e9e3cfdfac1dce9d8c347564
-SHA512: fdeccf3fddd28690284b79e107ca3f2514ef4ceb12023cc00cb7022fb6279c5e1881251b25a875bf170e5017cc3506918b2832fb7853788c95d95bcda2a3ff4e
+Size: 3147100
+MD5sum: 5f8070095403bd982ea42e3e06483d96
+SHA1: 1af3d3f5257339365d9d777933faeb70497ba8e3
+SHA256: ec47cc14f7c56ff84f32c7e3ff17e31626c221b30708a64e38a4038e6f01231e
+SHA512: 640c5ea6c0f69bf0d6accc172a51f64d45f17ce0a3ee16035a88ae3759acb84e9060a9ff12bd135331052385bf274f335d40bd4946c365eca05bb7b4604b12dd
 Description: GNUSlashLinux GRUB-Minimal bootloader theme
  [DE] Ein massgeschneidertes, visuelles Design fuer das GRUB-Bootmenue
  von GNUSlashLinux beim Systemstart.
@@ -214,11 +214,11 @@ Architecture: amd64
 Version: 1.0.0
 Depends: plymouth, initramfs-tools, plymouth-themes
 Filename: pool/main/g/gnuslashlinux-plymouth/gnuslashlinux-plymouth_1.0.0_amd64.deb
-Size: 59636
-MD5sum: d73dde0d30ad945c8e38b27a122560a8
-SHA1: 3050b503c202fab2dede197b23ad9d58b140a26b
-SHA256: dc9d0c1fc8de122fbdd0af799ecb53b8927bf0891f41f5acca95db24dc43c0d3
-SHA512: f2830d572721a1114801b245d4abe10d7105dd1eb1eb4ddadb5eeb9706f62b22cfaf9fab0800aafb531bd6dda47964ee2abda7c524b6d85580c4ef8f775302f7
+Size: 59632
+MD5sum: f4951644a9e6c8e05e4b67b2bda8a7f2
+SHA1: 718d905070fac6e905fd4d30873d58a92758c352
+SHA256: b140ccec389f279779fc654590953bbd516f4a2aad7cd2c7f74d192495fb70bb
+SHA512: dd691faf20f2995e0cfd221f72bdc4304a37103f0dd1f7aaeafd9b566488da5fce63cbf3c3c0fb8636fe36b10b5c21ef7183c4119cfd6b0457a34401a6b68f17
 Description: GNUSlashLinux boot animation (Plymouth)
  [DE] Enthaelt die offizielle, animierte Lade-Grafik fuer den
  Systemstart und das Herunterfahren von GNUSlashLinux.
@@ -232,11 +232,11 @@ Architecture: amd64
 Version: 1.0.0
 Depends: plymouth, initramfs-tools, plymouth-themes
 Filename: pool/main/g/gnuslashlinux-plymouth-minimal/gnuslashlinux-plymouth-minimal_1.0.0_amd64.deb
-Size: 68376
-MD5sum: 852683702956d55e98a7e9449f21cf1e
-SHA1: 6aa9003d9fc49a116e4ef8d15d3b9ae4e1ce478a
-SHA256: f00f31942f3f71b316bbe150c5ccfea3aaeeae7ed619e89e3335741a89bae7e7
-SHA512: 8a5e463e2911f65409aedc6c193391750afb70da2ed03c0328b2ab6bb8205471eb5765ecfde69e7d3b9efe356e0565394eb54a66f60052bea3169d42c4f92530
+Size: 68372
+MD5sum: cd542b2787bc466e8e9b6c517706dc4f
+SHA1: 44b57901bc72e77cee41898e2e9705ba14b9de30
+SHA256: 4585a538e411057a7a00f28bdcc9d371bc7103f2afb49d1c2947fcf13c60260b
+SHA512: e48d711bf8770684787cb0baafa0eb93903bf3eac1f1b357f6e8b4213882075b74cfb112ceb45395d3b3a913a1e52216be8d742f7cf9831289e008d7d2001b3b
 Description: GNUSlashLinux boot animation (Plymouth)
  [DE] Enthaelt die offizielle, animierte Lade-Grafik fuer den
  Systemstart und das Herunterfahren von GNUSlashLinux.
@@ -252,11 +252,11 @@ Architecture: amd64
 Version: 1.0.0
 Depends: sddm (>= 0.18.0)
 Filename: pool/main/g/gnuslashlinux-sddm/gnuslashlinux-sddm_1.0.0_amd64.deb
-Size: 2813828
-MD5sum: afcd20486283f14d1342f15304d22e56
-SHA1: 932f3f16747b43a44f4b45625cde37b36570c8d3
-SHA256: 2425cd072a93f3d2f4ea0269b10c9f2ab3cc5b291f021cd074d51a92964c6dcf
-SHA512: 126420f95016068057f3d3ca84aab097b9db44f5151d5743ec0c5f9a515e81e73b6bb27dab55b59eca176425a9396767030eecb378aab17d89ce40c74ac98337
+Size: 2813836
+MD5sum: a65e78617f9f85a61cbc2c7a93bfd07b
+SHA1: 96011f33f0034af085598d6fddf90a89590e7cec
+SHA256: 6b673e7dcb9023be3e724ea61609df0edc43a23e169924413f9ae4e0ea2569df
+SHA512: d870544e553ce0df73c68bbc792ebc65916b0a018b88ab3db17aa93d967d6adc4e549d2e69b603a4962b3f9484a92f517b68a5f88d808c3c8750800d6b9e3117
 Description: GNUSlashLinux custom SDDM theme
  [DE] Ein maßgeschneidertes SDDM-Anmeldethema für die GNUSlashLinux-Distribution.
  .
@@ -267,11 +267,11 @@ Maintainer: GNUSlashLinux <info@gnuslashlinux.com>
 Architecture: amd64
 Version: 1.0.0
 Filename: pool/main/g/gnuslashlinux-shellset/gnuslashlinux-shellset_1.0.0_amd64.deb
-Size: 3980
-MD5sum: a131b63baaea93f6e034a9357e9253d7
-SHA1: 6978580caedeea2ca85a582acb5d4a5ce53f59d4
-SHA256: fe97ebe072d369b80f2eaba0c11f588dd644d29b13e9c545725894d705aacef4
-SHA512: bc081b7ac0c06b757aaf121228a652e4e3f2ea910ed02bce6213e187746426f260c89fdd911e7001917980c9474daaceacdaf8d8b0b1ebffe843be3e2c8ff2ea
+Size: 3976
+MD5sum: 6b2ea7b0bc9646f3af84a05ab9b0f2ac
+SHA1: 85eaec3ff0441c40f55a79caae13d6a8e763da9f
+SHA256: 1f660f85426bf485fc4af7566569703262175e2978e9c7334ba1d81af96ba5cc
+SHA512: 08a8ff66a73394226dad8842309042f779cad44c03085d57c8a7b945e06e154e6c271afd863cd9bd61e578f0d0cb32b63ca55dae74e4a5ee58fe8f89ff813b66
 Description: GNUSlashLinux shell configuration
  [DE] Wähle zwischen bash, fish und zsh.
  .
@@ -284,10 +284,10 @@ Version: 1.0.0
 Depends: gnuslashlinux-wallpapers-part1, gnuslashlinux-wallpapers-part2
 Filename: pool/main/g/gnuslashlinux-wallpapers/gnuslashlinux-wallpapers_1.0.0_amd64.deb
 Size: 772
-MD5sum: dd3faf83343b66416ab6d03004b2f8ce
-SHA1: 4242003164171f706210f3c4f35289c57c3bf2a4
-SHA256: fa09ca75a843cf7791e4d99c8da2ef0aaa37e5980ad26709c358360c04020a41
-SHA512: a92192e8eec3b47e4ff85c3f369ff2da6b37e2350eb4dfa4bda2839a6917a06bc9d0234b73009291af5ddcf2845d431ab0ddbdf7ca6b4510488e8634a62ca4b7
+MD5sum: 5a63d5c83879ae5580937312e2a1dc7e
+SHA1: 575bc4f5acae75a33119872873c3aa532444176e
+SHA256: 12e6b3ee0e245c9096797c544bb49d30b6f6fb85eb51a48f62465c9b72370e34
+SHA512: a5d74f6586c38864ee1ed1470ab3d7b788f05abe7825e7ea807504a7d5e7ec9bd5ee32661844f8acec339f82b3b2384a8049b1d1f2dff00dcb7e85ede22381ad
 Description: Official GNUSlashLinux wallpapers (Meta-package)
  [EN] Meta-package to install all wallpaper parts.
  .
@@ -300,10 +300,10 @@ Version: 1.0.0
 Depends: gnuslashlinux-wallpapers-nord-part1, gnuslashlinux-wallpapers-nord-part2
 Filename: pool/main/g/gnuslashlinux-wallpapers-nord/gnuslashlinux-wallpapers-nord_1.0.0_amd64.deb
 Size: 784
-MD5sum: de2bc341fead37761fc525f66512b1e0
-SHA1: cf20ed1b451894233b1c85e312abaeb4bc33fc9c
-SHA256: d562c7132e0149dc7eed2f507da14d7e03f8182b4ba60978537999cb3c67d92d
-SHA512: dbb68c0ad470ae32e27ff0dfaff9e0c527b47711ece4066ae05ea0f3ae5d357185ac915f5b535cd140772c6d110d53324427a84bbf41c68b80217b2b61bb13e9
+MD5sum: f5f024eeae12129343f265726ec4331a
+SHA1: 3a373d543ec57162bef94d21fef021ecd0ecb011
+SHA256: 0416295c8656ec79f573be505aaae5e74cc1540db92401f0e31d50c872ffebb8
+SHA512: d09122de245d72170c5e3a463ae88b5de8db8ae5b5f8d1cee69ad3d33fa9816a88a6ef5eb40fab5c480ad9ecda81e4b48e27c4f0c2941185ba42fe3c62195479
 Description: Official GNUSlashLinux wallpapers (Meta-package)
  [EN] Meta-package to install all wallpaper nord parts.
  .
@@ -314,11 +314,11 @@ Maintainer: GNUSlashLinux <info@gnuslashlinux.com>
 Architecture: amd64
 Version: 1.0.0
 Filename: pool/main/g/gnuslashlinux-wallpapers-nord-part1/gnuslashlinux-wallpapers-nord-part1_1.0.0_amd64.deb
-Size: 96096588
-MD5sum: 8e15db07d69fd0779176b855adbb31e2
-SHA1: fa94c60d2f8e1b23d5919e2b33cd855c545125e4
-SHA256: e313961623b271298f3ea8294705330ad00602902f4567c69d1b77d02095a451
-SHA512: c48c5ad68bb9cd13f3f89acfc542fdef27ed44542d8142b242dbbc1d6d435880cfa0bcfae0db7ec85cdbc9619678392825291eca44fd932d4120c47ddcbab94b
+Size: 96096244
+MD5sum: b62673d4c739127d64b00034ff4ece5e
+SHA1: c681664e0d5933568f0682a1f6acac458e60f9bc
+SHA256: 18c64113308cf192c57d0eb3e6bc7c5c9300aedbe22bc0f44f6bb65749183af4
+SHA512: 93f15f709e32e09d8b47651391d1a661faf351fd5987fa13f8ac55661efbad42dbc0a8e9714652bfabe38d0a398669d9097196dcf34687c282080128833055c9
 Description: GNUSlashLinux wallpapers in Nord style Part 1
  [DE] Eine alternative Kollektion von Hintergrundbildern, angepasst
  an die kuehle Farbpalette des Nord-Designs.
@@ -331,11 +331,11 @@ Maintainer: GNUSlashLinux <info@gnuslashlinux.com>
 Architecture: amd64
 Version: 1.0.0
 Filename: pool/main/g/gnuslashlinux-wallpapers-nord-part2/gnuslashlinux-wallpapers-nord-part2_1.0.0_amd64.deb
-Size: 17657028
-MD5sum: 1b0d2cb0532bbc2c7c859e4e6149a5e4
-SHA1: 843ccba7878db19664f9c569e9915e91ac4757f4
-SHA256: 229caa054c8c1a604ebe5715d76c17fb71693f6f5d7ce30d9877a0766280a953
-SHA512: f886265956935aed2ea0ee4a59de82160129ef2a656523bad9603f26fb7985325bd25327636bcc1f4c4dc1f617836e3ea14c9a5a33802a5946e46f97adef410c
+Size: 17656872
+MD5sum: 24ab44c887fe24b9bc6d7636132b2f40
+SHA1: f36195daf7ce5f9252bf915e24d192c281e040d8
+SHA256: aa50d9f0e9c7cfe558221070d5134f888677969195ea6fd78d925596a556636d
+SHA512: 2a6f96049a2bc5ebe87d093063b867afb8cabfcc3b062bb5a037cba88db72555e2649731271c9b95c00cba3731f2eca691e1581977e882312703d4328b2d6deb
 Description: GNUSlashLinux wallpapers in Nord style Part 2
  [DE] Eine alternative Kollektion von Hintergrundbildern, angepasst
  an die kuehle Farbpalette des Nord-Designs.
@@ -348,11 +348,11 @@ Maintainer: GNUSlashLinux <info@gnuslashlinux.com>
 Architecture: amd64
 Version: 1.0.0
 Filename: pool/main/g/gnuslashlinux-wallpapers-part1/gnuslashlinux-wallpapers-part1_1.0.0_amd64.deb
-Size: 45303576
-MD5sum: ae1819166e2671f5e99264364e383383
-SHA1: 21d2ecdf9ff49ff1d7825dcf4b5d33496834c580
-SHA256: 230404bcf30085ee87c67647ad22c255d80d40cb751bfbbad9a25dbd87779591
-SHA512: d18dcb8c9a5e0687f27a2724daba0a242a55eaf9b8c1ef939dfb6f9d024d1a915b5193fbb3d68e03acd4eaf144f6470f42b5b073c3109389e52855434ce4d903
+Size: 45303496
+MD5sum: 7b5037c9177e7922245f1d8e79e857d1
+SHA1: b257b705014e35831945dc43f35c814f45fad6b8
+SHA256: d262df626dc40e75ab669ccc4a4587e4fd8c30adc2f7058c20da57295dcfd408
+SHA512: 75b3376da07e6da76c38b71fd66c12cf65e9b191cfd906336f7fbcccb58f8bae4fe0424c0bd198cdaf0cc7d220e45007b128edc9a868b67913b89144fa317563
 Description: Official GNUSlashLinux Wallpapers Part 1
  [DE] Die Standard-Auswahl an hochaufloesenden Hintergrundbildern
  fuer das GNUSlashLinux-System.
@@ -365,11 +365,11 @@ Maintainer: GNUSlashLinux <info@gnuslashlinux.com>
 Architecture: amd64
 Version: 1.0.0
 Filename: pool/main/g/gnuslashlinux-wallpapers-part2/gnuslashlinux-wallpapers-part2_1.0.0_amd64.deb
-Size: 49706280
-MD5sum: 7aa1710bdbed6bd198b5b54f09942fdc
-SHA1: baaaaa0fd750d2740daae3da99592b6386c8b07f
-SHA256: d47152617f942cf01773cba7942320bab0d07bdeeee42c37bbda0a2615502614
-SHA512: f6f483604207da5616a77a440cb5fbe6693567b9b20a8711209cd978bd9f7bde8e78fa297ef8892363fa8df130362dd733cfc51f2ae3ad82df7052dfa21fb486
+Size: 49706564
+MD5sum: 47e6454bcc0351b34987bed71da91f5a
+SHA1: fea88617c07a7066487bc93212b89765d71227db
+SHA256: f36252c19da672d8dbe2d06747bca241f7727652d01ce9519eac93cebe0c44ee
+SHA512: a5ec32a53aa6843594a46b2277aa98c509c8692a54995722e2b7c9d60de5dedce3d5593143bf8fbc76a32ecee9c8d889bd621b4ca503a0f346b46b4200ad430b
 Description: Official GNUSlashLinux Wallpapers Part 2
  [DE] Die Standard-Auswahl an hochaufloesenden Hintergrundbildern
  fuer das GNUSlashLinux-System.
@@ -392,6 +392,239 @@ SHA256: 41427a50bcea0c57b8377e3ac7cd70b1c92e3540c4ef2f128b8a48b85d215d72
 SHA512: 02d517d4845d3ec6fac6d78a0a4532440bd98a540f07a60c35221dd18a2544aee0a78deb541a7de06be3206f2d038a5e4c9e1a9e50138c37469c5bf881e0bbd3
 Description: An extremely simple lofi player.
 Homepage: https://github.com/talwat/lowfi
+
+Package: niri
+Priority: optional
+Installed-Size: 131890
+Maintainer: Ivan Molodetskikh <yalterz@gmail.com>
+Architecture: amd64
+Version: 26.4.0-1
+Depends: alacritty, fuzzel
+Filename: pool/main/n/niri/niri_26.4.0-1_amd64.deb
+Size: 20050048
+MD5sum: 6496b5874db91cca5b93558f4f5fe12c
+SHA1: 72a9082260a53349b55faee97b3b9ff083da4cde
+SHA256: 1147babd301e4eb462e238e069e2167e91916f9afde38e3e15984d954619b2d9
+SHA512: 86621332e35dbfba0c40444874ac280bc8cff73b0202dd9aca688406a14db17946b1e0996250f4429a4f050948c462df8822d53eef4195fe09a989fc4b2f248b
+Description: A scrollable-tiling Wayland compositor
+ <h1 align="center"><img alt="niri"
+ src="https://github.com/user-attachments/assets/07d05cd0-d5dc-4a28-9a35-51bae8f119a0"></h1>
+ <p align="center">A scrollable-tiling Wayland compositor.</p>
+ <p align="center">
+     <a href="https://matrix.to/#/#niri:matrix.org"><img alt="Matrix"
+ src="https://img.shields.io/badge/matrix-%23niri-blue?logo=matrix"></a>
+     <a href="https://github.com/niri-wm/niri/blob/main/LICENSE"><img
+ alt="GitHub License"
+ src="https://img.shields.io/github/license/niri-wm/niri"></a>
+     <a href="https://github.com/niri-wm/niri/releases"><img alt="GitHub
+ Release"
+ src="https://img.shields.io/github/v/release/niri-wm/niri?logo=github"></a>
+ </p>
+ .
+ <p align="center">
+     <a href="https://niri-wm.github.io/niri/Getting-Started.html">Getting
+ Started</a> | <a
+ href="https://niri-wm.github.io/niri/Configuration%3A-Introduction.html">Configuration</a>
+ | <a
+ href="https://github.com/niri-wm/niri/discussions/325">Setup&nbsp;Showcase</a>
+ </p>
+ .
+ <img width="1280" height="720" alt="niri with a few windows open"
+ src="https://github.com/user-attachments/assets/dea5909e-1859-4aaa-9d88-d37f9663e00b"
+ />
+ .
+ ## About
+ .
+ Windows are arranged in columns on an infinite strip going to the right.
+ Opening a new window never causes existing windows to resize.
+ .
+ Every monitor has its own separate window strip.
+ Windows can never "overflow" onto an adjacent monitor.
+ .
+ Workspaces are dynamic and arranged vertically.
+ Every monitor has an independent set of workspaces, and there's always one
+ empty workspace present all the way down.
+ .
+ The workspace arrangement is preserved across disconnecting and connecting
+ monitors where it makes sense.
+ When a monitor disconnects, its workspaces will move to another monitor, but
+ upon reconnection they will move back to the original monitor.
+ .
+ ## Features
+ .
+ - Built from the ground up for scrollable tiling
+ - [Dynamic workspaces](https://niri-wm.github.io/niri/Workspaces.html) like in
+ GNOME
+ - An
+ [Overview](https://github.com/user-attachments/assets/379a5d1f-acdb-4c11-b36c-e85fd91f0995)
+ that zooms out workspaces and windows
+ - Built-in screenshot UI
+ - Monitor and window screencasting through xdg-desktop-portal-gnome
+     - You can [block
+ out](https://niri-wm.github.io/niri/Configuration%3A-Window-Rules.html#block-out-from)
+ sensitive windows from screencasts
+     - [Dynamic cast
+ target](https://niri-wm.github.io/niri/Screencasting.html#dynamic-screencast-target)
+ that can change what it shows on the go
+ -
+ [Touchpad](https://github.com/niri-wm/niri/assets/1794388/946a910e-9bec-4cd1-a923-4a9421707515)
+ and
+ [mouse](https://github.com/niri-wm/niri/assets/1794388/8464e65d-4bf2-44fa-8c8e-5883355bd000)
+ gestures
+ - Group windows into [tabs](https://niri-wm.github.io/niri/Tabs.html)
+ - Configurable layout: gaps, borders, struts, window sizes
+ - [Gradient
+ borders](https://niri-wm.github.io/niri/Configuration%3A-Layout.html#gradients)
+ with Oklab and Oklch support
+ - [Background blur](https://niri-wm.github.io/niri/Window-Effects.html) for
+ windows and layer-shell surfaces
+ -
+ [Animations](https://github.com/niri-wm/niri/assets/1794388/ce178da2-af9e-4c51-876f-8709c241d95e)
+ with support for [custom
+ shaders](https://github.com/niri-wm/niri/assets/1794388/27a238d6-0a22-4692-b794-30dc7a626fad)
+ - Live-reloading config
+ - Works with [screen
+ readers](https://niri-wm.github.io/niri/Accessibility.html)
+ .
+ ## Video Demo
+ .
+ https://github.com/niri-wm/niri/assets/1794388/bce834b0-f205-434e-a027-b373495f9729
+ .
+ Also check out these videos that showcase a lot of the niri functionality:
+ .
+ - [Niri Is My New Favorite Wayland
+ Compositor](https://www.youtube.com/watch?v=DeYx2exm04M) by Brodie Robertson
+ - [How Is niri This Good? Live Demo +
+ Config](https://www.youtube.com/watch?v=7XmD5UyyhZQ) by Nick Janetakis
+ .
+ ## Status
+ .
+ Niri is stable for day-to-day use and does most things expected of a Wayland
+ compositor.
+ Many people are daily-driving niri, and are happy to help in our [Matrix
+ channel].
+ .
+ Give it a try!
+ Follow the instructions on the [Getting
+ Started](https://niri-wm.github.io/niri/Getting-Started.html) page.
+ Grab a desktop shell like [DankMaterialShell] or [Noctalia] (or build a more
+ traditional setup): niri by itself is not a complete desktop environment.
+ Also check out [awesome-niri], a list of niri-related links and projects.
+ .
+ Here are some points you may have questions about:
+ .
+ - **Multi-monitor**: yes, a core part of the design from the very start. Mixed
+ DPI works.
+ - **Fractional scaling**: yes, plus all niri UI stays pixel-perfect.
+ - **NVIDIA**: seems to work fine.
+ - **Floating windows**: yes, starting from niri 25.01.
+ - **Input devices**: niri supports tablets, touchpads, and touchscreens.
+ You can map the tablet to a specific monitor, or use [OpenTabletDriver].
+ We have touchpad gestures, but no touchscreen gestures yet.
+ - **Wlr protocols**: yes, we have most of the important ones like layer-shell,
+ gamma-control, screencopy.
+ You can check on [wayland.app](https://wayland.app) at the bottom of each
+ protocol's page.
+ - **Performance**: while I run niri on beefy machines, I try to stay conscious
+ of performance.
+ I've seen someone use it fine on an Eee PC 900 from 2008, of all things.
+ - **Xwayland**:
+ [integrated](https://niri-wm.github.io/niri/Xwayland.html#using-xwayland-satellite)
+ via xwayland-satellite starting from niri 25.08.
+ .
+ ## Media
+ .
+ [niri: Making a Wayland compositor in
+ Rust](https://youtu.be/Kmz8ODolnDg?list=PLRdS-n5seLRqrmWDQY4KDqtRMfIwU0U3T) ·
+ *December 2024*
+ .
+ My talk from the 2024 Moscow RustCon about niri, and how I do randomized
+ property testing and profiling, and measure input latency.
+ The talk is in Russian, but I prepared full English subtitles that you can find
+ in YouTube's subtitle language selector.
+ .
+ [An interview with Ivan, the developer behind
+ Niri](https://www.trommelspeicher.de/podcast/special_the_developer_behind_niri)
+ · *June 2025*
+ .
+ An interview by a German tech podcast Das Triumvirat (in English).
+ We talk about niri development and history, and my experience building and
+ maintaining niri.
+ .
+ [A tour of the niri scrolling-tiling Wayland
+ compositor](https://lwn.net/Articles/1025866/) · *July 2025*
+ .
+ An LWN article with a nice overview and introduction to niri.
+ .
+ ## Contributing
+ .
+ If you'd like to help with niri, there are plenty of both coding- and
+ non-coding-related ways to do so.
+ See
+ [CONTRIBUTING.md](https://github.com/niri-wm/niri/blob/main/CONTRIBUTING.md)
+ for an overview.
+ .
+ ## Inspiration
+ .
+ Niri is heavily inspired by [PaperWM] which implements scrollable tiling on top
+ of GNOME Shell.
+ .
+ One of the reasons that prompted me to try writing my own compositor is being
+ able to properly separate the monitors.
+ Being a GNOME Shell extension, PaperWM has to work against Shell's global
+ window coordinate space to prevent windows from overflowing.
+ .
+ ## Tile Scrollably Elsewhere
+ .
+ Here are some other projects which implement a similar workflow:
+ .
+ - [PaperWM]: scrollable tiling on top of GNOME Shell.
+ - [karousel]: scrollable tiling on top of KDE.
+ - [scroll](https://github.com/dawsers/scroll) and [papersway]: scrollable
+ tiling on top of sway/i3.
+ - Hyprland has a built-in [scrolling
+ layout](https://wiki.hypr.land/Configuring/Layouts/Scrolling-Layout/).
+ - [Paneru] and [PaperWM.spoon]: scrollable tiling on top of macOS.
+ .
+ ## Contact
+ .
+ Our main communication channel is a Matrix chat, feel free to join and ask a
+ question: https://matrix.to/#/#niri:matrix.org
+ .
+ We also have a community Discord server: https://discord.gg/vT8Sfjy7sx
+ .
+ [PaperWM]: https://github.com/paperwm/PaperWM
+ [waybar]: https://github.com/Alexays/Waybar
+ [fuzzel]: https://codeberg.org/dnkl/fuzzel
+ [awesome-niri]: https://github.com/niri-wm/awesome-niri
+ [karousel]: https://github.com/peterfajdiga/karousel
+ [papersway]: https://spwhitton.name/tech/code/papersway/
+ [Paneru]: https://github.com/karinushka/paneru
+ [PaperWM.spoon]: https://github.com/mogenson/PaperWM.spoon
+ [Matrix channel]: https://matrix.to/#/#niri:matrix.org
+ [OpenTabletDriver]: https://opentabletdriver.net/
+ [DankMaterialShell]: https://danklinux.com/
+ [Noctalia]: https://noctalia.dev/
+Homepage: https://github.com/niri-wm/niri
+
+Package: noctalia
+Priority: optional
+Section: utils
+Maintainer: GNUSlashLinux <info@gnuslashlinux.com>
+Architecture: amd64
+Version: 5.0.0~beta.3
+Depends: bash, coreutils, python3, imagemagick, git, brightnessctl
+Recommends: power-profiles-daemon, network-manager, upower, bluez, wlsunset, cliphist
+Filename: pool/main/n/noctalia/noctalia_5.0.0~beta.3_amd64.deb
+Size: 12722416
+MD5sum: 8f3dcf51ff35cb2d93ca59f8a665970b
+SHA1: 165fe2322952b25cb00692a9260abe502edcb2fb
+SHA256: 68f89464b8e342a8d86bc15a96fb77655264105548685984c2ad5878f137c79c
+SHA512: 60cb0839daafdbc5458e9ffc3c477f11ac9f8d5e00dfce9781b77cf95d7dd1909042541926a8bd33f7b4436dfb46107fd6253e65b9e9daeb6ac0853352aa3795
+Description: Noctalia Shell Environment and Customization Assets
+ A comprehensive shell environment customization package that includes
+ local binaries, desktop application shortcuts, scalable SVG icons,
+ custom Firefox themes, fonts, sounds, templates, and wallpapers.
 
 Package: xwayland-satellite
 Priority: optional
@@ -532,6 +765,62 @@ SHA256: 9060d74efac76b8e64c842f6debf6738b5d67b70584b2ae693b3690cc8d38043
 SHA512: 934e1ea1eeac4ca273f88449aa43ec9ed747df5d761b42bf9633a3434dedf0ea38fe32c429dc8a501903f2d880d6f3dec5fa191f77b8057afb686880e38716ef
 Description: a terminal file manager written in Rust, based on non-blocking async I/O
 Homepage: https://github.com/sxyazi/yazi
+
+Package: yazi-cli
+Priority: optional
+Installed-Size: 5682
+Maintainer: sxyazi <sxyazi@gmail.com>
+Architecture: amd64
+Version: 26.5.6-1
+Depends: libc6 (>= 2.39)
+Filename: pool/main/y/yazi-cli/yazi-cli_26.5.6-1_amd64.deb
+Size: 1636336
+MD5sum: b807fc3ab38a6a9aeca3758ba1a9e1ac
+SHA1: b84b84391a0ed7d4048f8eec549ff5a2ab72e3ae
+SHA256: 43cd79cace49ec30aa20731539b234e58820cc792d8b63843a11c2b04e151769
+SHA512: c6ba05032d61c29695ac1f7988df8f0c68a024e1d584300a4e8c6cf696c18d03943f2082da83825c6780fe9d6c80464cc5b0bfe04d63ad8ddc9b1a46bd54d7a9
+Description: Yazi command-line interface
+ # yazi-cli
+ .
+ This crate is part of [Yazi][source], and it is not supposed to be used
+ outside, as there are no guarantees about the stability of its API.
+ .
+ [source]: https://github.com/sxyazi/yazi
+Homepage: https://yazi-rs.github.io
+
+Package: yazi-fm
+Priority: optional
+Installed-Size: 24395
+Maintainer: sxyazi <sxyazi@gmail.com>
+Architecture: amd64
+Version: 26.5.6-1
+Depends: libc6 (>= 2.39)
+Filename: pool/main/y/yazi-fm/yazi-fm_26.5.6-1_amd64.deb
+Size: 6993912
+MD5sum: ddb9ae281910567ec971b245a3b7f190
+SHA1: ccd5215e7e1a3100b07b6fa714feee31883081cb
+SHA256: 1e4d250835dca7dc8665a8889b5f0cd02961c9102e69352321326b904188072e
+SHA512: 831b9628955a591f610af1fd0eef651e78377f917c8a9ec7f48ab68f0f198bbb6526669095d4616140a2beb82fbee2cd02378403124e2cab6b28ad831a122f31
+Description: Yazi file manager
+ # yazi-fm
+ .
+ This crate is part of [Yazi][source], and it is not supposed to be used
+ outside, as there are no guarantees about the stability of its API.
+ .
+ [source]: https://github.com/sxyazi/yazi
+Homepage: https://yazi-rs.github.io
+
+Package: zen-browser
+Maintainer: GitHub Actions
+Architecture: amd64
+Version: 1.21.8b
+Filename: pool/main/z/zen-browser/zen-browser_1.21.8b_amd64.deb
+Size: 100036276
+MD5sum: f36500f08cc4738b6406c8b58bd6c6dd
+SHA1: 6704b81cfe5db9c8069ab295c8252dad77ad8da4
+SHA256: 7a10298fd0344d7400eb38e46c0351959247c1c5559501f21ec6dd9e3cf434eb
+SHA512: 1dbd942fab4e2983b022720e0dad0dfcd7078d63e89cad98bb335e81d589323dd1eee635c2ef73a2654b4acc666120000fe3c6bfccd45c528064b3b91534102e
+Description: Zen Browser - A privacy-focused browser.
 
 Package: zoxide
 Priority: optional
