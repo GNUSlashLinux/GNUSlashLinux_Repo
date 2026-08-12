@@ -75,11 +75,11 @@ Maintainer: GNUSlashLinux <info@gnuslashlinux.com>
 Architecture: amd64
 Version: 1.0.0
 Filename: pool/main/g/gnuslashlinux-alpha-utilz/gnuslashlinux-alpha-utilz_1.0.0_amd64.deb
-Size: 72268
-MD5sum: c0bdb5830674802f3bae4ae90b45fe5d
-SHA1: 121caa504bee12e8008828dad4a44852fe46f178
-SHA256: 7de15fb5702d2f50062d72c2ff1c905fe2447a4b571551c6ec23e87b448570f1
-SHA512: f965b45e35ff9cf6f2f8126cc156ee914d191edc1d08b84f7e9d2c93a699b8edb7e91caaf84f3c0fa800b394caa92652582964d15b2a950173f0abdde3b0274d
+Size: 72156
+MD5sum: 65ca5810efcc3ee197a5e91e9e26b063
+SHA1: b6a0baaddde7c5bf5477c2d216ee09e1f765961d
+SHA256: e3ae0e097bb2bbd75a637b2fcb2210cd25edde41947dbfa96689aa3f3ad2b6b3
+SHA512: aa2d676dfbf2e2a58b6a5bfd5f48c80479c2c9293a66af7a357ff0f00a3ed8ac3fdf409b1657af00281a3dd76b37b9908c1cade1cacb250b568151408676a97e
 Description: GNUSlashLinux alpha-utilz
  [DE] Erstellt ISO-Snapshots, schreibt ISO-Dateien auf USB-Sticks,
  startet Systeme über eine Live-Umgebung und ermöglicht die Erstellung eines
@@ -94,11 +94,11 @@ Maintainer: GNUSlashLinux <info@gnuslashlinux.com>
 Architecture: amd64
 Version: 1.0.0
 Filename: pool/main/g/gnuslashlinux-base/gnuslashlinux-base_1.0.0_amd64.deb
-Size: 15964944
-MD5sum: dfb63014d645acffb99952d944e06e38
-SHA1: f95c03e6728891d657786af93ced5eb348cbc02a
-SHA256: bb27bb856713f69110414e97b646b84637278f69552edba9144ecb8029116b47
-SHA512: bf847f2d32aaec0a166294fcd430d6367aa41b1e302131bb8c5441d74bf1082759094c5f91ba8c3d13a24767a497bbe0b903994f5a1a59ad59de8ab5c7a18ea9
+Size: 12292084
+MD5sum: 4982a3b1bed2d37b2cae29fdc969ee93
+SHA1: 2f2c60cafe1893b4cbaa7fdf9201b36cd356caef
+SHA256: 224469e059b73f5c896ee873977dfee93414962eb434883a324d0de61e7c9699
+SHA512: 803f0cd805acc298667ea66236cd34c73ba775d1eca848a4add6f5143c66b0f60ce862429138eba446ec6ca14dbbc443156f94e27a8418b5a92e9b9ad8efb478
 Description: GNUSlashLinux basic configuration and scripts
  [DE] Das Kern-Paket fuer die GNUSlashLinux-Distribution. Es enthaelt
  grundlegende Systemkonfigurationen und essentielle Skripte.
@@ -106,22 +106,23 @@ Description: GNUSlashLinux basic configuration and scripts
  [EN] The core package for the GNUSlashLinux distribution. It contains
  basic system configurations and essential scripts.
 
-Package: gnuslashlinux-branding-and-settings
+Package: gnuslashlinux-calamares
 Maintainer: GNUSlashLinux <info@gnuslashlinux.com>
 Architecture: amd64
 Version: 1.0.0
-Filename: pool/main/g/gnuslashlinux-branding-and-settings/gnuslashlinux-branding-and-settings_1.0.0_amd64.deb
-Size: 35154596
-MD5sum: 8cfbcccbe9162c2566637935f36129bb
-SHA1: 22be5e84efc7b42ebe10a98b679359c82dca92de
-SHA256: 926b4a68214d0f750481cc3846662d207da7101e8964c7e9e3a06a419b9c25e3
-SHA512: 86504873a1e2c4af0263cc74ec83062b913a63ef395d22937987a9a1edbe0864f3edc162d856477974184ec5b0962483f35e749f182960036fb5387d4c850660
-Description: GNUSlashLinux basic configuration and scripts
- [DE] Das Kern-Paket fuer die GNUSlashLinux-Distribution. Es enthaelt
- grundlegende Systemkonfigurationen und essentielle Skripte.
+Depends: calamares
+Filename: pool/main/g/gnuslashlinux-calamares/gnuslashlinux-calamares_1.0.0_amd64.deb
+Size: 2820500
+MD5sum: d7163fb0b2bae4ea4f2cda0fd4784ad6
+SHA1: 4138406de11461769356c542f4dffd8980732e51
+SHA256: fced6ad0b5c24c57c55829b37fda19c76003845d4fbc765af48b2eb2fd621744
+SHA512: e5f88d2c705a2a7393d0ba39c1017d8a0a9105d77b92b707b95dd787b6286d4e512eb94b0374557d991a88b141cd6e75e81d6aa6a2b6e69ba51278b6397f1c42
+Description: GNUSlashLinux Calamares branding
+ [DE] Ein massgeschneidertes, visuelles Design fuer Calamares
+ von GNUSlashLinux beim Systemstart.
  .
- [EN] The core package for the GNUSlashLinux distribution. It contains
- basic system configurations and essential scripts.
+ [EN] A customized visual theme for Calamares of GNUSlashLinux
+ during system startup.
 
 Package: gnuslashlinux-distroclone
 Priority: optional
@@ -134,11 +135,11 @@ Depends: bash, rsync, xorriso, mtools, syslinux-utils, syslinux-common, isolinux
 Recommends: yad, zenity, grub-efi-amd64, efibootmgr, calamares, calamares-settings-debian, os-prober, fdisk, live-boot, live-config
 Suggests: polkitd | policykit-1
 Filename: pool/main/g/gnuslashlinux-distroclone/gnuslashlinux-distroclone_1.0.0_amd64.deb
-Size: 2077476
-MD5sum: ab8fd4fc972fcce5b6b90e95639590a2
-SHA1: f2d57329446507ed377b9f1e9eb57476df0cd81d
-SHA256: 0d90f5e0a48fe6fc41aea471141d9b32fdb0b882421c3d04d44e9cd6e2ed4e4d
-SHA512: 304b79fe49c9946636f2ad899e5259e12c8552063ee04facfdb15cbae16166d62cd1b1be6f6a113facaf1261bf949f9cc08f92be97b4324ee405f9f1dace7f92
+Size: 2077360
+MD5sum: 32848c9ad7d3cb34440554eab1a2c700
+SHA1: 24a7ec5ca50ff4d5cfba64c15b31a7c986bcd0ac
+SHA256: 46c9d43733f81b4d3f2f786c740b9b403c29d53a2f702a91f5a8d3d88047431f
+SHA512: c1f00844db43ba8abf41ffc1f6179e9a1ba55384225a8f508756c1ef6841451f550c42be538c239df1f428b56689b7f03354f58796abb6cd5deb388139128930
 Description: DistroClone - Universal Live ISO Builder
  Create customized bootable live ISO images from any running
  Debian-based system (Debian, Ubuntu, Linux Mint, Elementary OS,
@@ -159,11 +160,11 @@ Maintainer: GNUSlashLinux <info@gnuslashlinux.com>
 Architecture: amd64
 Version: 1.0.0
 Filename: pool/main/g/gnuslashlinux-fonts/gnuslashlinux-fonts_1.0.0_amd64.deb
-Size: 20043764
-MD5sum: d6096f265c1a3130001f7b6265eb59df
-SHA1: 66665e981f101748fed2681ececf09447645f8f9
-SHA256: c0e5d9745376379f55f30f09826fb45f84411a94f86e7997c62ca3bf46d29ae0
-SHA512: 4916b6713feade2c3817a348ce47c3f5d1d00e71068e56da8129d779a6c478fbef70b749e6b0449f4eb0a74f803c420c434bb201ece867807d7b3fae5c7b670d
+Size: 20046340
+MD5sum: 2d4bf4b8d7a17dd2fe6690d47eb1e92a
+SHA1: eeeb5d650c02e61f4bfba820a1395c5f682761ef
+SHA256: c961809b3cbfc3a93f0b0371f6c2f8697236da2ae4f1718291b31ef17ec0df38
+SHA512: 750f303b9eac62346d79162c205e242a75ff5901d93a30a2702a2e26a2d358db8af0bc17249b09133766ef4e045043d722bc27f39f6c57802aa493b5daba6633
 Description: System fonts for GNUSlashLinux
  [DE] Enthaelt die offiziellen und optimierten Schriftarten fuer die
  Benutzeroberflaeche und das Terminal von GNUSlashLinux.
@@ -177,11 +178,11 @@ Architecture: amd64
 Version: 1.0.0
 Depends: grub-pc | grub-efi-amd64
 Filename: pool/main/g/gnuslashlinux-grub/gnuslashlinux-grub_1.0.0_amd64.deb
-Size: 2495204
-MD5sum: d48fd9d30b0bccc73d5b109692dea69c
-SHA1: b55de7cb6e083425d09c27b33a9d193b4500c37b
-SHA256: b96e31d877a5cd4a92bec4b09eb1c8b5f456efedb7c4c2d0b817070d49a37080
-SHA512: 4276bce56030bfe7e1512607d927dd8eb26841a5c91c3033acb88ca2884a1cdda23afd7a519c5cabed2d9870a068ae62c9eb3b1eaab046bea4e2f7ee4bc31f84
+Size: 2495208
+MD5sum: 6fdacdd04558bb7774a89e5441938a47
+SHA1: 73dfc80c2ddf8147cf03815419a8360b7af6fe6d
+SHA256: b69723f5e458a94880af1d86b9e666b04f0b15bc6bc98c5cdb19be1681bb7700
+SHA512: 0affd2f814ce2e5fed20e5444dc06eacd7cae346ba3210fef0a23892e7ff6a3eb48a2f430c878043b8f7927ba7795950a87df5da4180f47999891a63d8b9f9f3
 Description: GNUSlashLinux GRUB bootloader theme
  [DE] Ein massgeschneidertes, visuelles Design fuer das GRUB-Bootmenue
  von GNUSlashLinux beim Systemstart.
@@ -195,11 +196,11 @@ Architecture: amd64
 Version: 1.0.0
 Depends: grub-pc | grub-efi-amd64
 Filename: pool/main/g/gnuslashlinux-grub-2/gnuslashlinux-grub-2_1.0.0_amd64.deb
-Size: 2839760
-MD5sum: ce204e2fb78f7bcb782a1d3157de48de
-SHA1: 555a2b4e690ec99ac2aab287f880fb48a6bed12d
-SHA256: 3b120b3b6cdf8a9ab0ca8b895a5b4338e1f88a9f9dcfe2155c6deae22fb18b00
-SHA512: 409c801802b50f2891990e2a396cc127f8411f25eeb270e84e10c4406c4e859d63e9fdd9cd3b9d9baff9d2c6272bad1ed670ec6a91f6f16b0f390434d0125a32
+Size: 2839764
+MD5sum: 1d0efcc99047cbe07fdb70bdd245295b
+SHA1: a9c5904cfd905f285e11492f3c1c0a7807b109fe
+SHA256: 050db070cbac9248b87f1f1f3cb20c5cd0c31da998e6589f90eb264eb9dd38ed
+SHA512: 93ac1eeb0d5cbb7f142f49a12f6656136e8702edb3320392161aba386921b5594845ec9ec9be97e8d9bb0d61e7c02f846abe3422cd6e07e364c20714c714261a
 Description: GNUSlashLinux GRUB bootloader theme
  [DE] Ein massgeschneidertes, visuelles Design fuer das GRUB-Bootmenue
  von GNUSlashLinux beim Systemstart.
@@ -213,11 +214,11 @@ Architecture: amd64
 Version: 1.0.0
 Depends: grub-pc | grub-efi-amd64
 Filename: pool/main/g/gnuslashlinux-grub-minimal/gnuslashlinux-grub-minimal_1.0.0_amd64.deb
-Size: 3149536
-MD5sum: 27e6599686f7f17682f903b8f71a06fd
-SHA1: 1aba0202a081fb05f2fab9f1eee0440a650d111e
-SHA256: c6e4eeef2968500e41c867867d011f53af2ee9a054d3f82b9dc9b3cbbe9607ee
-SHA512: a6c8a75bb0712efb6f78dc240ac5c52d27acc8789a9059100445d50b6c255b60f7e6d5a523b7d81cf25ba48b98475a6c94138c9bb3017c27083b052d2b82108c
+Size: 3128804
+MD5sum: 0fdc4a070a33c84d0028062ffb6ccff9
+SHA1: 4e7690842013a0a4bc26419afffd7f0d793c8600
+SHA256: 167b097048616c3b970d19dda35148f14f0d511290851d3dcf3be24d92116cff
+SHA512: 640c30e6bbfe5edbaf4385491aca3c79a8f82c00adac4fc2e948b66857c8688a2d6a0fbd951d5e6ce68cf5c35504dbc7500e9bd232d93adb653a3028572f82c1
 Description: GNUSlashLinux GRUB-Minimal bootloader theme
  [DE] Ein massgeschneidertes, visuelles Design fuer das GRUB-Bootmenue
  von GNUSlashLinux beim Systemstart.
@@ -231,11 +232,11 @@ Architecture: amd64
 Version: 1.0.0
 Depends: plymouth, initramfs-tools, plymouth-themes
 Filename: pool/main/g/gnuslashlinux-plymouth/gnuslashlinux-plymouth_1.0.0_amd64.deb
-Size: 59648
-MD5sum: 6d1d4f3fb934fc69ae8e3a98d65131a6
-SHA1: 6bf942965bd72f2affadc299095118341396eabb
-SHA256: 1cbca139ace9dccc1cfc6ce5272d8948ddb570457c343fe335605e29c21cb696
-SHA512: 11aee89bfe333c974a03a6924b1be76323bbafd9646c19ef60343a86162a1f8ee264fd5e802a3d8856fd17fd38b2b2fd2d64922095ccee4fcc16ca3b1d8b0214
+Size: 59636
+MD5sum: c216ece15edf0f7987ffd83e22f1551e
+SHA1: fa50d16d1eedb6f0f7cca9d0f79efb7bb0640b45
+SHA256: b3a7cbbc537666b2d83aaa4f15c36db408998686e92417072e401c00e4eafcc1
+SHA512: afb88294ef04fb457e8a698bbd5c163533414e48582951ef8b4788966a6883e4233dab9bc866b0ccdbf0a524802d74aa18a033cf83f1bdc71e14efd422e1625d
 Description: GNUSlashLinux boot animation (Plymouth)
  [DE] Enthaelt die offizielle, animierte Lade-Grafik fuer den
  Systemstart und das Herunterfahren von GNUSlashLinux.
@@ -249,11 +250,11 @@ Architecture: amd64
 Version: 1.0.0
 Depends: plymouth, initramfs-tools, plymouth-themes
 Filename: pool/main/g/gnuslashlinux-plymouth-minimal/gnuslashlinux-plymouth-minimal_1.0.0_amd64.deb
-Size: 68380
-MD5sum: 93f0796df3561b35ab2f842a22b4912d
-SHA1: 17a948a35c7fcc1da80585a756295686ba10e5fe
-SHA256: a659eac3a8ac1ec50637a6416a527e3eff34a86eb28bf34dad2981103b79b139
-SHA512: b7daa258933b2a6343e391d90a2898edaabd428ff2cd477586892c72afb0ee158e5460402c73923d47c19154aed6fdad2a8f0eaa3a2e0516527736b5746bbd92
+Size: 68404
+MD5sum: 73e7ddf51ffddf01150abf958bd3236f
+SHA1: b944bd6af89cba447923cdc4efd5b947ea272980
+SHA256: 2f5303588acfecaa154bb1f0768ee1ba4bbc5aeb237505e3e22505c75ff55220
+SHA512: 733a9f4f8903450ce4332ac8876126b41f8621d126d8bea93e6cc3d0290e48ca282a7525db5c8b0ceb6fb6f5fac43bcefcebb4fb3000bd902c4ddeae7a512848
 Description: GNUSlashLinux boot animation (Plymouth)
  [DE] Enthaelt die offizielle, animierte Lade-Grafik fuer den
  Systemstart und das Herunterfahren von GNUSlashLinux.
@@ -269,11 +270,11 @@ Architecture: amd64
 Version: 1.0.0
 Depends: sddm (>= 0.18.0)
 Filename: pool/main/g/gnuslashlinux-sddm/gnuslashlinux-sddm_1.0.0_amd64.deb
-Size: 2813816
-MD5sum: 1b7fcee4acf6062c8e7ac44ec40c6714
-SHA1: 743309ee0975db5bed04f0a30eeb2060bc6c8909
-SHA256: b90a74baf27e418477137529412c9a11dc20dcf742dbd04b83e2a3c75a4c0641
-SHA512: 044e3c8926d661ddcbe5dd73d69136e921e20dfdfa3fcc5fccdc015977e1dbc94b2dd2250c7ed27fa3c8b359b654e1677e0b48522edb67946e9e44d056b8e7e5
+Size: 2813844
+MD5sum: 4ca67e71fcb3c81806241ee716be0d47
+SHA1: 36ff7656dece9c527d0b9aae497b7498064c5a58
+SHA256: 85fecc781b93676f2c3ce36dca5cf23c2dac14b6e7ab20191618d6a8684de7e2
+SHA512: 35f6ea33a082b35d0ef1c5eff3f9491dec74b3a1ca43295c95c1583f0a6c61d53a3c3fe908e71a571fae7e2f85eba5dbf401963493e3c712058fe6b9e96c83af
 Description: GNUSlashLinux custom SDDM theme
  [DE] Ein maßgeschneidertes SDDM-Anmeldethema für die GNUSlashLinux-Distribution.
  .
@@ -284,11 +285,11 @@ Maintainer: GNUSlashLinux <info@gnuslashlinux.com>
 Architecture: amd64
 Version: 1.0.0
 Filename: pool/main/g/gnuslashlinux-shellset/gnuslashlinux-shellset_1.0.0_amd64.deb
-Size: 3980
-MD5sum: 038062575e7ed92a2d872efb93d91c95
-SHA1: b556f4c296f495b4d79a2017a0c9671e011b0db9
-SHA256: f82ca67f43064e7fcb2a103c2017cdc3ae3efafc5694ff7d82081f776e4b5774
-SHA512: efa6de800b6c7c80da508d2fa31a6053cb8a50c4fbd4647456a4e5e2d80e02153395ba86eb4f240942c39ac52a67be60ae731ab7c957e4366d3bec0b64ea0553
+Size: 3976
+MD5sum: 899a6e27ef093b95699aaf755d57f1ed
+SHA1: 66fff05fe51217eefce53ad6a8754fb3a7eab1c4
+SHA256: e6fb04e13ce0b06a2deb54359a59c512cf7ecdc374721852a69d712f2fe6ec47
+SHA512: 6fe21d944712bc08aff402574c5c834685be71147af4d4350c1e45c18c269997f854742bc7d7b86201b47333f12612b2ad2e4eb5fa8205965744a8601ea30369
 Description: GNUSlashLinux shell configuration
  [DE] Wähle zwischen bash, fish und zsh.
  .
@@ -301,10 +302,10 @@ Version: 1.0.0
 Depends: gnuslashlinux-wallpapers-part1, gnuslashlinux-wallpapers-part2
 Filename: pool/main/g/gnuslashlinux-wallpapers/gnuslashlinux-wallpapers_1.0.0_amd64.deb
 Size: 776
-MD5sum: da4456515a98f9225a37824b5a2024a0
-SHA1: 23c8dabd37155b5a519184386e900257f9de78b2
-SHA256: 13d022b17becb9999359435858a0c6a3f3f581203cd5b5634ace063dec2613e3
-SHA512: a7d3a87ba79b98ad3c1c8d8623a8fcf7b40f0f083af8245ac4452518c68e03d038ed18f7027e4ab3a0a5ab35e0bee186ed145c695d0f308d1bff5aae64027019
+MD5sum: a262abd10cdf3b8b83ee7d50ae6452cb
+SHA1: 4a83ef926c15f73ef9a9a7893efaa19d0eae862a
+SHA256: e2e538c4369f38871e9dd33385d3d0c939df1764a08d6954b01ee5fcfc6f14b7
+SHA512: 577b5489e1dfdc8edeb01be89163d41a0afe0934d6ca31a036cc537985e7e73d8520574f583a2c2005cbac71b77f743924e0af067f018df7a3dfe08753c2c759
 Description: Official GNUSlashLinux wallpapers (Meta-package)
  [EN] Meta-package to install all wallpaper parts.
  .
@@ -317,10 +318,10 @@ Version: 1.0.0
 Depends: gnuslashlinux-wallpapers-nord-part1, gnuslashlinux-wallpapers-nord-part2
 Filename: pool/main/g/gnuslashlinux-wallpapers-nord/gnuslashlinux-wallpapers-nord_1.0.0_amd64.deb
 Size: 788
-MD5sum: a15276b651d059d68744fbe5737c00e8
-SHA1: fcbcf001b26e6f6f7a660d2b6366df7403085dae
-SHA256: 0dd09c6a0e95c9785155c956c40ad15c394a46ef78fb9ef9c301de19fa7cb174
-SHA512: 8d926199dbafb3b74602ce552d87736d164ced240c8f3eefa8b4cfb79af08a01f8329217956b87b0ef8f779e4685295a2508e8e498dab0e8774b9791c68d3ed1
+MD5sum: 6453a470d11ffd61a9911c609e921576
+SHA1: 9d736a73eb53a59ad89754d7fed2ba794866e7e3
+SHA256: 8a51da6cbdabf81c4ebe0198435fcea12f5d718582a9fa75bac3f70cd2ead2de
+SHA512: 275cff55e4a56a261cde31893eacb352105cb0e6e0b91c8e5334f0aec5bc9e8af5242069a218529f4f1c3ca5a4cb414496b7b6bcacc16c6fe344d9f6d0a9fdbb
 Description: Official GNUSlashLinux wallpapers (Meta-package)
  [EN] Meta-package to install all wallpaper nord parts.
  .
@@ -331,11 +332,11 @@ Maintainer: GNUSlashLinux <info@gnuslashlinux.com>
 Architecture: amd64
 Version: 1.0.0
 Filename: pool/main/g/gnuslashlinux-wallpapers-nord-part1/gnuslashlinux-wallpapers-nord-part1_1.0.0_amd64.deb
-Size: 96097092
-MD5sum: ddc0b745abe69b5c1c7c566f90dc6e71
-SHA1: 08d24308f62b5add08f324bac65ba51b3512c586
-SHA256: 82f8f4ac0f7b9d133bb216dda25739db86c7385fb819724257a5bea0a1a71261
-SHA512: 6122d3dde892a1a79a672fd2a1a2661df9c4fd2f7636648fd81081fbc0e62121130757692aaa9905f7f0f502d9e3102c3395e14029b8e4e94de1e4c7aa6ec55b
+Size: 96095708
+MD5sum: 246852912a323e9f4c11ead6ad512352
+SHA1: e296a15ac7a3dd808230eaf25ba52601c6fabb9e
+SHA256: 716fdc68a128f87207a4167a2e81fa29a1f463c8f04baf60e88d63efe3d2eebc
+SHA512: 3ecff25ad2d53b0ada069a0dc81c014c03867bb4aadff5c9a6745fcbad17fab72b8b0b30abae8b372bcfb093950df93e13af56609e951c0923040b2c85336a62
 Description: GNUSlashLinux wallpapers in Nord style Part 1
  [DE] Eine alternative Kollektion von Hintergrundbildern, angepasst
  an die kuehle Farbpalette des Nord-Designs.
@@ -348,11 +349,11 @@ Maintainer: GNUSlashLinux <info@gnuslashlinux.com>
 Architecture: amd64
 Version: 1.0.0
 Filename: pool/main/g/gnuslashlinux-wallpapers-nord-part2/gnuslashlinux-wallpapers-nord-part2_1.0.0_amd64.deb
-Size: 17657016
-MD5sum: 3f0351033caace4aaddc821b453744c3
-SHA1: 70059094bcc469cc9f46559c257e73b54480a729
-SHA256: 8cc46c414683822a521a309dc2b58268a6ec8f70e5611efe12d096319af6bfad
-SHA512: 24e8dd0b818588e7880cd2b84188f3afdcd5acfdf96c7ea6e4503002b30d195b51dda51cac6563dbea6fdef101822aca201cc0a374b36bbe0255e03fba0a0d18
+Size: 17656880
+MD5sum: 24230e6f5c48e1a5ee5cc0f2bdf7aade
+SHA1: c49c758467e77ec3254593aa8b3d4efdae37f00c
+SHA256: 46f4a3b117f647db5cf9df5edd43f4972679740ce810ebb7d6ffd68336ec04a8
+SHA512: 88d86e8abf10d6799f7952adf52c8dc83a2107a1906dfc2b129ce27ad6781e077191df14f971b0774f33d2be6649a6a4ab6720c646e5620ed9a78d47d4e25bcf
 Description: GNUSlashLinux wallpapers in Nord style Part 2
  [DE] Eine alternative Kollektion von Hintergrundbildern, angepasst
  an die kuehle Farbpalette des Nord-Designs.
@@ -365,11 +366,11 @@ Maintainer: GNUSlashLinux <info@gnuslashlinux.com>
 Architecture: amd64
 Version: 1.0.0
 Filename: pool/main/g/gnuslashlinux-wallpapers-part1/gnuslashlinux-wallpapers-part1_1.0.0_amd64.deb
-Size: 45303308
-MD5sum: d4f342f108a5f4646a67db1388a952f9
-SHA1: 1f2b25fd6b4c0d697f4b84b38e11e269984607d3
-SHA256: 5f047a79e61b2a41b6e11510514a26529a2b2b6e5f421ceb0ffdf01ab7a3b818
-SHA512: 5282328edbf74a6e82f2502bb452e0d81a3295d702bb002d2b8b57fb4f5e5ecf0ada2d26d84b72e8feffa25eeb38c25b6acbb1045352eb8b762aa84a1a6185ce
+Size: 45303816
+MD5sum: 600ef1c244b6bcefb64e440cec8168a2
+SHA1: 14552629318e0a2762473d483dede83efffe98ee
+SHA256: 9a8cd67ed40f8c627b2bf5526ccb156787e171eac2036877e31fec04854d8b5a
+SHA512: e9b57bc104f9e2f30c7eee732e038943a496f9ca87b62d46852a16549c271211a6241b57eec579b60bb1fba08d988aacf899a1d682492d7a9058e222126249ab
 Description: Official GNUSlashLinux Wallpapers Part 1
  [DE] Die Standard-Auswahl an hochaufloesenden Hintergrundbildern
  fuer das GNUSlashLinux-System.
@@ -382,11 +383,11 @@ Maintainer: GNUSlashLinux <info@gnuslashlinux.com>
 Architecture: amd64
 Version: 1.0.0
 Filename: pool/main/g/gnuslashlinux-wallpapers-part2/gnuslashlinux-wallpapers-part2_1.0.0_amd64.deb
-Size: 49706292
-MD5sum: 879136b04995cb66ae00bb43f8369a42
-SHA1: c365086a9f98d3bacd84d454b61588e3c2dfb753
-SHA256: 389950c2902ad0a73a0e55a5f71e7259325c6b13d082104a252c1ef8930eccd8
-SHA512: f4b7fc536968a09d282f9d5c1321dac227a375f8c5b9e2512c8c82f4442b9b84cd0043514cd2afc3a90a6e050a9f47c4b2ab5d496fb9fd26a9ff2f4c5d1f40c5
+Size: 49706280
+MD5sum: 9ecf8e1fddba462dd29818d907eca482
+SHA1: 1b703ce5a798627b9226b5725ca3591016317db8
+SHA256: a149d1ca8f1274c59c7adb2176a7bdc1d85272e6dc3a7a9c5b1385c7b72003c9
+SHA512: 2f824ca140d9a595ee6af7dd9bcb6aa0c8688a8081d2ea07fa66e2fdaf7802783f1bb6dc04862c899f250c06f3e62e8bb44c0d88f34588c3771925ba8fe520f0
 Description: Official GNUSlashLinux Wallpapers Part 2
  [DE] Die Standard-Auswahl an hochaufloesenden Hintergrundbildern
  fuer das GNUSlashLinux-System.
@@ -633,11 +634,11 @@ Version: 5.0.0~beta.3
 Depends: bash, coreutils, python3, imagemagick, git, brightnessctl
 Recommends: power-profiles-daemon, network-manager, upower, bluez, wlsunset, cliphist
 Filename: pool/main/n/noctalia/noctalia_5.0.0~beta.3_amd64.deb
-Size: 12721716
-MD5sum: 006313922b7a97733361245779dc4b83
-SHA1: 98ebe56747b508f217a6695506cbb99c1222e92a
-SHA256: 964296e5a3a11bee72b1b5ec538136f145ce9d36491511d566750d7d8b21327a
-SHA512: 20d78f4d1e6d0290a3b0cee254b4dad35b5e3686e67e87cb174093425dd260022a4fdd58433149f227b7683ab040801728bf20306e4c1d623da2982739a1e6f4
+Size: 12721148
+MD5sum: cb86cbc59d587db6a1233a715aed9bac
+SHA1: 28bd17344957709724d92d13c9a051bb93097e99
+SHA256: 737123fdbac67790534717275286e797d1af3ddeebb414e20a7891384033e797
+SHA512: 8687907ec9c8153c0cef9bcd145624306ee07560c65f18346a6f357e690e7b9ddad9dc1939f88b2fa8175e2d5faa6b80d8bb9466e3dc2137d238065e183bf6d8
 Description: Noctalia Shell Environment and Customization Assets
  A comprehensive shell environment customization package that includes
  local binaries, desktop application shortcuts, scalable SVG icons,
